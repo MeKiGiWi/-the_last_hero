@@ -47,10 +47,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"the_lust_hero",
   "resources":[
+    {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},},
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"obj_dialog_car","path":"objects/obj_dialog_car/obj_dialog_car.yy",},},
     {"id":{"name":"obj_dialog_window","path":"objects/obj_dialog_window/obj_dialog_window.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"spr_yura_walk_LEFT","path":"sprites/spr_yura_walk_LEFT/spr_yura_walk_LEFT.yy",},},
     {"id":{"name":"spr_yura_walk_RIGHT","path":"sprites/spr_yura_walk_RIGHT/spr_yura_walk_RIGHT.yy",},},
     {"id":{"name":"viniette","path":"sprites/viniette/viniette.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
