@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_run",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.485578,
+  "name":"snd_run",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Звуки/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_run.wav",
+  "type":1,
+  "volume":0.9,
+}

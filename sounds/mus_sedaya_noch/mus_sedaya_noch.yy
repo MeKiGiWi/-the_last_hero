@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_sedaya_noch",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":334.26443,
+  "name":"mus_sedaya_noch",
+  "parent":{
+    "name":"music",
+    "path":"folders/Звуки/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_sedaya_noch.wav",
+  "type":0,
+  "volume":1.0,
+}
