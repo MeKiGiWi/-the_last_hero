@@ -51,7 +51,6 @@
   },
   "name":"the_lust_hero",
   "resources":[
-    {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},},
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"obj_dialog_car","path":"objects/obj_dialog_car/obj_dialog_car.yy",},},
     {"id":{"name":"obj_dialog_window","path":"objects/obj_dialog_window/obj_dialog_window.yy",},},

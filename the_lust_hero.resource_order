@@ -30,9 +30,8 @@
     {"name":"Шрифты","order":7,"path":"folders/Шрифты.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Extension1","order":19,"path":"extensions/Extension1/Extension1.yy",},
     {"name":"obj_dialog_car","order":1,"path":"objects/obj_dialog_car/obj_dialog_car.yy",},
-    {"name":"obj_dialog_window","order":16,"path":"objects/obj_dialog_window/obj_dialog_window.yy",},
+    {"name":"obj_dialog_window","order":24,"path":"objects/obj_dialog_window/obj_dialog_window.yy",},
     {"name":"obj_snd_fx","order":10,"path":"objects/obj_snd_fx/obj_snd_fx.yy",},
     {"name":"obj_snd_run","order":9,"path":"objects/obj_snd_run/obj_snd_run.yy",},
     {"name":"obj_snd_walk","order":8,"path":"objects/obj_snd_walk/obj_snd_walk.yy",},
