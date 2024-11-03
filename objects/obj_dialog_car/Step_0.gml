@@ -4,9 +4,7 @@ if (place_meeting(x, y, obj_yura))
 	{
 		if (my_text_box == noone)
 		{
-			my_text_box = instance_create_layer(192, 261, "Text", obj_textbox);
-			my_text_box.text = my_text;
-			my_text_box.creator = self;
+			my_text_box = instance_create_depth(0, 0, 0, obj_dialog_text_box, {	text: my_text})
 		}
 	}
 }
