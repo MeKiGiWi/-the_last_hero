@@ -52,8 +52,8 @@
   "name":"the_lust_hero",
   "resources":[
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
-    {"id":{"name":"obj_dialog_car","path":"objects/obj_dialog_car/obj_dialog_car.yy",},},
     {"id":{"name":"obj_dialog_text_box","path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},},
+    {"id":{"name":"obj_dialog_wall","path":"objects/obj_dialog_wall/obj_dialog_wall.yy",},},
     {"id":{"name":"obj_dialog2","path":"objects/obj_dialog2/obj_dialog2.yy",},},
     {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
     {"id":{"name":"obj_snd_fx","path":"objects/obj_snd_fx/obj_snd_fx.yy",},},
