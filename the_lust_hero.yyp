@@ -104,6 +104,7 @@
     {"id":{"name":"spr_yura_stat_RIGHT","path":"sprites/spr_yura_stat_RIGHT/spr_yura_stat_RIGHT.yy",},},
     {"id":{"name":"spr_yura_walk_LEFT","path":"sprites/spr_yura_walk_LEFT/spr_yura_walk_LEFT.yy",},},
     {"id":{"name":"spr_yura_walk_RIGHT","path":"sprites/spr_yura_walk_RIGHT/spr_yura_walk_RIGHT.yy",},},
+    {"id":{"name":"viniette_1","path":"sprites/viniette_1/viniette_1.yy",},},
     {"id":{"name":"viniette","path":"sprites/viniette/viniette.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],

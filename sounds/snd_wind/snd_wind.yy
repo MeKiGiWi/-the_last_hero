@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_wind.wav",
-  "type":1,
+  "type":0,
   "volume":1.0,
 }

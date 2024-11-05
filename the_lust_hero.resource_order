@@ -71,6 +71,7 @@
     {"name":"spr_yura_stat_LEFT","order":14,"path":"sprites/spr_yura_stat_LEFT/spr_yura_stat_LEFT.yy",},
     {"name":"spr_yura_walk_LEFT","order":13,"path":"sprites/spr_yura_walk_LEFT/spr_yura_walk_LEFT.yy",},
     {"name":"spr_yura_walk_RIGHT","order":10,"path":"sprites/spr_yura_walk_RIGHT/spr_yura_walk_RIGHT.yy",},
+    {"name":"viniette_1","order":2,"path":"sprites/viniette_1/viniette_1.yy",},
     {"name":"TileSet1","order":23,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }

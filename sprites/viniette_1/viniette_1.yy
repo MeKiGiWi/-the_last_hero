@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"viniette",
+  "%Name":"viniette_1",
   "bboxMode":0,
-  "bbox_bottom":359,
+  "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":639,
-  "bbox_top":32,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"72d11dff-b079-43e7-9018-3ed1f0c1cbb9","blendMode":0,"displayName":"default","isLocked":false,"name":"72d11dff-b079-43e7-9018-3ed1f0c1cbb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"viniette",
+  "name":"viniette_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d38b832-1505-41cf-9ced-8ec8e1805699","path":"sprites/viniette/viniette.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d38b832-1505-41cf-9ced-8ec8e1805699","path":"sprites/viniette_1/viniette_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2baee41a-c5bc-469a-b27e-aa93914560a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
