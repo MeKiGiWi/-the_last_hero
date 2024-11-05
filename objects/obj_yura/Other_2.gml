@@ -3,4 +3,4 @@
 
 global.dialog = false;
 global.pause = false;
-
+global.room = 0;

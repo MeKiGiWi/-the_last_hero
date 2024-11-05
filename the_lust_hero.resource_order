@@ -32,7 +32,8 @@
   "ResourceOrderSettings":[
     {"name":"obj_dialog_text_box","order":2,"path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},
     {"name":"obj_dialog2","order":4,"path":"objects/obj_dialog2/obj_dialog2.yy",},
-    {"name":"obj_snd_fx","order":10,"path":"objects/obj_snd_fx/obj_snd_fx.yy",},
+    {"name":"obj_goto_room","order":24,"path":"objects/obj_goto_room/obj_goto_room.yy",},
+    {"name":"obj_snd_fx_room0","order":10,"path":"objects/obj_snd_fx_room0/obj_snd_fx_room0.yy",},
     {"name":"obj_snd_run","order":9,"path":"objects/obj_snd_run/obj_snd_run.yy",},
     {"name":"obj_snd_walk","order":8,"path":"objects/obj_snd_walk/obj_snd_walk.yy",},
     {"name":"obj_snow_controller","order":2,"path":"objects/obj_snow_controller/obj_snow_controller.yy",},
@@ -61,6 +62,7 @@
     {"name":"rm_streethome2","order":3,"path":"sprites/rm_streethome2/rm_streethome2.yy",},
     {"name":"spr_dialog","order":7,"path":"sprites/spr_dialog/spr_dialog.yy",},
     {"name":"spr_dialog3","order":1,"path":"sprites/spr_dialog3/spr_dialog3.yy",},
+    {"name":"spr_enter_to_room","order":2,"path":"sprites/spr_enter_to_room/spr_enter_to_room.yy",},
     {"name":"spr_enter","order":1,"path":"sprites/spr_enter/spr_enter.yy",},
     {"name":"spr_hitbox","order":7,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
     {"name":"spr_light_streetlump","order":4,"path":"sprites/spr_light_streetlump/spr_light_streetlump.yy",},
