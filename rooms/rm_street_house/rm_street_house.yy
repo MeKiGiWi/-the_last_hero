@@ -19,6 +19,7 @@
     {"name":"inst_4C379494","path":"rooms/rm_street_house/rm_street_house.yy",},
     {"name":"inst_E9F8D6C","path":"rooms/rm_street_house/rm_street_house.yy",},
     {"name":"inst_4BBACF05","path":"rooms/rm_street_house/rm_street_house.yy",},
+    {"name":"inst_6E83A754","path":"rooms/rm_street_house/rm_street_house.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,7 +50,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"needx","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"575",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"needy","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"280",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"goal_room_num","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":215.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.90625,"scaleY":1.0,"x":435.0,"y":215.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6E83A754","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E83A754","objectId":{"name":"obj_room_controller","path":"objects/obj_room_controller/obj_room_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":156.0,"y":-34.0,},
       ],"layers":[],"name":"Yura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Volga","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_F3D1135","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F3D1135","objectId":{"name":"obj_volga","path":"objects/obj_volga/obj_volga.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":269.0,"y":187.0,},
