@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_dogs.wav",
   "type":2,
-  "volume":1.0,
+  "volume":0.73,
 }

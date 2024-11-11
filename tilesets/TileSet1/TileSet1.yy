@@ -1,5 +1,5 @@
 {
-  "$GMTileSet":"v1",
+  "$GMTileSet":"",
   "%Name":"TileSet1",
   "autoTileSets":[],
   "macroPageTiles":{
@@ -22,6 +22,10 @@
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[],
+    "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

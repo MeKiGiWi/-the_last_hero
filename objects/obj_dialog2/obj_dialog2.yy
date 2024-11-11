@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dialog",
-    "path":"sprites/spr_dialog/spr_dialog.yy",
+    "name":"spr_dialog11",
+    "path":"sprites/spr_dialog11/spr_dialog11.yy",
   },
   "spriteMaskId":null,
   "visible":true,

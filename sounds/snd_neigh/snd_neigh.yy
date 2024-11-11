@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_neigh.wav",
   "type":2,
-  "volume":0.85,
+  "volume":0.21,
 }

@@ -3,11 +3,11 @@ if (global.room != 0)
 	audio_pause_sound(snd_neigh);
 	audio_pause_sound(mus_sedaya_noch);
 	audio_pause_sound(snd_dogs);
-	audio_pause_sound(snd_wind);
+	audio_pause_sound(snd_wind_loop);
 	exit;
 }
 audio_play_sound_ext({
-sound: snd_wind,
+sound: snd_wind_loop,
 priority: 1,
 loop: true,
 gain: 0.2,
@@ -33,12 +33,12 @@ position:
 });
 
 
-audio_play_sound_ext({
-sound: mus_sedaya_noch,
-priority: 3,
-loop: true,
-gain: 1.0
-});
+///audio_play_sound_ext({
+///sound: mus_konchitsya_leto,
+///priority: 3,
+///loop: true,
+///gain: 1.0
+///});
 
 
 audio_play_sound_ext({

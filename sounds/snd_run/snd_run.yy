@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_run.wav",
   "type":1,
-  "volume":0.9,
+  "volume":0.57,
 }
