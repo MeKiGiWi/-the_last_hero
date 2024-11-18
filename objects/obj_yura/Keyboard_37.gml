@@ -3,7 +3,11 @@ if (global.pause || global.dialog)
 	speed = 0;
 	exit;
 }
-if (!keyboard_check(vk_right))
+if (global.stairs != 0)
+{
+	move_and_collide(-1, global.stairs, obj_stairs);
+}
+else if (!keyboard_check(vk_right))
 {
 	sprite_index = spr_yura_walk_LEFT;
 	image_index += 9;
@@ -14,3 +18,4 @@ if (!keyboard_check(vk_right))
 		instance_change(obj_yura_RUN, true);
 	}
 }
+	

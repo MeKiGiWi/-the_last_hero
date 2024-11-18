@@ -4,3 +4,4 @@
 global.dialog = false;
 global.pause = false;
 global.room = 0;
+global.stairs = 0;
