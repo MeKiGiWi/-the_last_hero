@@ -41,8 +41,8 @@
     {"$GMFolder":"","%Name":"падик","folderPath":"folders/Спрайты/фоны/падик.yy","name":"падик","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"улица","folderPath":"folders/Спрайты/фоны/улица.yy","name":"улица","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"улицадом","folderPath":"folders/Спрайты/фоны/улица/улицадом.yy","name":"улицадом","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"2","folderPath":"folders/Спрайты/фоны/улица/улицадом/2.yy","name":"2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"0","folderPath":"folders/Спрайты/фоны/улица/улицадом/0.yy","name":"0","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"2","folderPath":"folders/Спрайты/фоны/улица/улицадом/2.yy","name":"2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"хатаюры","folderPath":"folders/Спрайты/фоны/хатаюры.yy","name":"хатаюры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Шейдеры","folderPath":"folders/Шейдеры.yy","name":"Шейдеры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Шрифты","folderPath":"folders/Шрифты.yy","name":"Шрифты","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -55,7 +55,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"the_lust_hero",
   "resources":[
@@ -84,6 +84,7 @@
     {"id":{"name":"obj_yura_STAT_L","path":"objects/obj_yura_STAT_L/obj_yura_STAT_L.yy",},},
     {"id":{"name":"obj_yura_STAT_R","path":"objects/obj_yura_STAT_R/obj_yura_STAT_R.yy",},},
     {"id":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},},
+    {"id":{"name":"rm_entrance_2","path":"rooms/rm_entrance_2/rm_entrance_2.yy",},},
     {"id":{"name":"rm_entrance","path":"rooms/rm_entrance/rm_entrance.yy",},},
     {"id":{"name":"rm_nextroom1","path":"rooms/rm_nextroom1/rm_nextroom1.yy",},},
     {"id":{"name":"rm_nextroom2","path":"rooms/rm_nextroom2/rm_nextroom2.yy",},},
@@ -118,6 +119,7 @@
     {"id":{"name":"spr_enter_to_room","path":"sprites/spr_enter_to_room/spr_enter_to_room.yy",},},
     {"id":{"name":"spr_enter","path":"sprites/spr_enter/spr_enter.yy",},},
     {"id":{"name":"spr_entrance1_DONE","path":"sprites/spr_entrance1_DONE/spr_entrance1_DONE.yy",},},
+    {"id":{"name":"spr_entrance2_DONE","path":"sprites/spr_entrance2_DONE/spr_entrance2_DONE.yy",},},
     {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},
     {"id":{"name":"spr_light_streetlump","path":"sprites/spr_light_streetlump/spr_light_streetlump.yy",},},
     {"id":{"name":"spr_next_room_light1_1","path":"sprites/spr_next_room_light1_1/spr_next_room_light1_1.yy",},},
@@ -166,6 +168,7 @@
     {"roomId":{"name":"rm_nextroom1","path":"rooms/rm_nextroom1/rm_nextroom1.yy",},},
     {"roomId":{"name":"rm_street_2","path":"rooms/rm_street_2/rm_street_2.yy",},},
     {"roomId":{"name":"rm_steet_0","path":"rooms/rm_steet_0/rm_steet_0.yy",},},
+    {"roomId":{"name":"rm_entrance_2","path":"rooms/rm_entrance_2/rm_entrance_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
