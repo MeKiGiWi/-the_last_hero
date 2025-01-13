@@ -80,8 +80,6 @@
     {"id":{"name":"obj_wall_LEFT","path":"objects/obj_wall_LEFT/obj_wall_LEFT.yy",},},
     {"id":{"name":"obj_wall_RIGHT","path":"objects/obj_wall_RIGHT/obj_wall_RIGHT.yy",},},
     {"id":{"name":"obj_yura_RUN","path":"objects/obj_yura_RUN/obj_yura_RUN.yy",},},
-    {"id":{"name":"obj_yura_STAT_L","path":"objects/obj_yura_STAT_L/obj_yura_STAT_L.yy",},},
-    {"id":{"name":"obj_yura_STAT_R","path":"objects/obj_yura_STAT_R/obj_yura_STAT_R.yy",},},
     {"id":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},},
     {"id":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"id":{"name":"rm_entrance_2","path":"rooms/rm_entrance_2/rm_entrance_2.yy",},},

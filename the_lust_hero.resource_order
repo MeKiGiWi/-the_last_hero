@@ -56,8 +56,6 @@
     {"name":"obj_wall_LEFT","order":7,"path":"objects/obj_wall_LEFT/obj_wall_LEFT.yy",},
     {"name":"obj_wall_RIGHT","order":4,"path":"objects/obj_wall_RIGHT/obj_wall_RIGHT.yy",},
     {"name":"obj_yura_RUN","order":6,"path":"objects/obj_yura_RUN/obj_yura_RUN.yy",},
-    {"name":"obj_yura_STAT_L","order":18,"path":"objects/obj_yura_STAT_L/obj_yura_STAT_L.yy",},
-    {"name":"obj_yura_STAT_R","order":17,"path":"objects/obj_yura_STAT_R/obj_yura_STAT_R.yy",},
     {"name":"obj_yura","order":3,"path":"objects/obj_yura/obj_yura.yy",},
     {"name":"rm_entrance_1","order":1,"path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"rm_entrance_2","order":7,"path":"rooms/rm_entrance_2/rm_entrance_2.yy",},
