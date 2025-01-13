@@ -28,11 +28,11 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"text","filters":[],"listItems":[
         "\"Insert text, please!\"",
-      ],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Insert text, please!\"","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"subimg","filters":[],"listItems":[],"multiselect":false,"name":"subimg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_dialog3","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"font","filters":[],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_dialog","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"phrase_ind","filters":[],"listItems":[],"multiselect":false,"name":"phrase_ind","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+      ],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Insert text, please!\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"subimg","filters":[],"listItems":[],"multiselect":false,"name":"subimg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_dialog3","path":"sprites/spr_dialog3/spr_dialog3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_dialog3","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"font","filters":[],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_dialog","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"phrase_ind","filters":[],"listItems":[],"multiselect":false,"name":"phrase_ind","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

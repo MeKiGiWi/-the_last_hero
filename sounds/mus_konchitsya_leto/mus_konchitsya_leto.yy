@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"mus_konchitsya_leto.mp3",
   "type":0,
-  "volume":0.21,
+  "volume":0.29,
 }
