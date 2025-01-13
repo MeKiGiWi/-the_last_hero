@@ -1,7 +1,14 @@
 if (global.pause || global.dialog)
 {
 	speed = 0;
-	sprite_index = spr_yura_stat_LEFT;
+	if (sprite_index = spr_yura_walk_LEFT)
+	{
+		sprite_index = spr_yura_stat_LEFT;
+	}
+	else if (sprite_index = spr_yura_walk_RIGHT)
+	{
+		sprite_index = spr_yura_stat_RIGHT;
+	}
 	exit;
 }
 if (!keyboard_check(vk_left))
