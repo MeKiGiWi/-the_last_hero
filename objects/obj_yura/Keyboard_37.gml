@@ -1,6 +1,7 @@
 if (global.pause || global.dialog)
 {
 	speed = 0;
+	sprite_index = spr_yura_stat_LEFT;
 	exit;
 }
 if (!keyboard_check(vk_right))
