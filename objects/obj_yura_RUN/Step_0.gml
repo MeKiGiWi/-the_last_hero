@@ -11,6 +11,11 @@ var down_arrow = keyboard_check(vk_down);
 
 var _hsp = right - left;
 var _vsp = 0;
+if (global.dialog || global.pause)
+{
+	_hsp = 0;
+}
+
 move_and_collide(_hsp * run_speed, _vsp, obj_floor);
 
 if (_hsp == 1)
