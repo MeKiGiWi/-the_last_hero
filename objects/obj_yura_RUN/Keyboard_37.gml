@@ -6,8 +6,8 @@ if (!keyboard_check(vk_right))
 	direction = 180;
 
 	speed = 3;
-if (!keyboard_check(vk_shift))
-{
-	instance_change(obj_yura, true);
-}
+	if (!keyboard_check(vk_shift))
+	{
+		instance_change(obj_yura, true);
+	}
 }

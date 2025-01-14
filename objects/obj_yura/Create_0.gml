@@ -1,2 +1,4 @@
-nextroom1 = 0;
-start_text1 = 0;
+/// @description local values init
+// You can write your code in this editor
+walk_speed = 1;
+run_speed = 2;
