@@ -30,7 +30,6 @@
     {"$GMFolder":"","%Name":"Спрайты","folderPath":"folders/Спрайты.yy","name":"Спрайты","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"БАРИКАДЫ","folderPath":"folders/Спрайты/БАРИКАДЫ.yy","name":"БАРИКАДЫ","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"визуал","folderPath":"folders/Спрайты/визуал.yy","name":"визуал","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"детали","folderPath":"folders/Спрайты/визуал/детали.yy","name":"детали","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ДИАЛОГ","folderPath":"folders/Спрайты/ДИАЛОГ.yy","name":"ДИАЛОГ","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"машины","folderPath":"folders/Спрайты/машины.yy","name":"машины","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"волга","folderPath":"folders/Спрайты/машины/волга.yy","name":"волга","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -61,6 +60,7 @@
   "name":"the_lust_hero",
   "resources":[
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
+    {"id":{"name":"obj_bus1","path":"objects/obj_bus1/obj_bus1.yy",},},
     {"id":{"name":"obj_dialog_text_box","path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},},
     {"id":{"name":"obj_dialog_wall","path":"objects/obj_dialog_wall/obj_dialog_wall.yy",},},
     {"id":{"name":"obj_dialog2","path":"objects/obj_dialog2/obj_dialog2.yy",},},
@@ -90,6 +90,7 @@
     {"id":{"name":"rm_steet_0","path":"rooms/rm_steet_0/rm_steet_0.yy",},},
     {"id":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
     {"id":{"name":"rm_street_2","path":"rooms/rm_street_2/rm_street_2.yy",},},
+    {"id":{"name":"rm_text","path":"rooms/rm_text/rm_text.yy",},},
     {"id":{"name":"scr_string_wrap","path":"scripts/scr_string_wrap/scr_string_wrap.yy",},},
     {"id":{"name":"mus_konchitsya_leto","path":"sounds/mus_konchitsya_leto/mus_konchitsya_leto.yy",},},
     {"id":{"name":"mus_sedaya_noch","path":"sounds/mus_sedaya_noch/mus_sedaya_noch.yy",},},
@@ -107,7 +108,6 @@
     {"id":{"name":"rm_dvor","path":"sprites/rm_dvor/rm_dvor.yy",},},
     {"id":{"name":"rm_streethome","path":"sprites/rm_streethome/rm_streethome.yy",},},
     {"id":{"name":"rm_streethome2","path":"sprites/rm_streethome2/rm_streethome2.yy",},},
-    {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},},
     {"id":{"name":"spr_dialog","path":"sprites/spr_dialog/spr_dialog.yy",},},
     {"id":{"name":"spr_dialog11","path":"sprites/spr_dialog11/spr_dialog11.yy",},},
     {"id":{"name":"spr_dialog2","path":"sprites/spr_dialog2/spr_dialog2.yy",},},
@@ -133,7 +133,6 @@
     {"id":{"name":"spr_roomlight1_2","path":"sprites/spr_roomlight1_2/spr_roomlight1_2.yy",},},
     {"id":{"name":"spr_roomlight2_1","path":"sprites/spr_roomlight2_1/spr_roomlight2_1.yy",},},
     {"id":{"name":"spr_roomlight2_2","path":"sprites/spr_roomlight2_2/spr_roomlight2_2.yy",},},
-    {"id":{"name":"spr_smoke","path":"sprites/spr_smoke/spr_smoke.yy",},},
     {"id":{"name":"spr_snow","path":"sprites/spr_snow/spr_snow.yy",},},
     {"id":{"name":"spr_street_2_1","path":"sprites/spr_street_2_1/spr_street_2_1.yy",},},
     {"id":{"name":"spr_street_2_2","path":"sprites/spr_street_2_2/spr_street_2_2.yy",},},
@@ -158,12 +157,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
-<<<<<<< Updated upstream
     {"roomId":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"roomId":{"name":"rm_text","path":"rooms/rm_text/rm_text.yy",},},
-=======
-    {"roomId":{"name":"rm_entrance","path":"rooms/rm_entrance/rm_entrance.yy",},},
->>>>>>> Stashed changes
     {"roomId":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
     {"roomId":{"name":"rm_room_1_2","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},},
     {"roomId":{"name":"rm_nextroom1","path":"rooms/rm_nextroom1/rm_nextroom1.yy",},},

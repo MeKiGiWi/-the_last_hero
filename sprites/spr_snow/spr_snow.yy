@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"детали",
-    "path":"folders/Спрайты/визуал/детали.yy",
+    "name":"визуал",
+    "path":"folders/Спрайты/визуал.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
