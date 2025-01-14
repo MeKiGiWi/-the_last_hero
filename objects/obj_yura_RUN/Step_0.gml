@@ -1,6 +1,7 @@
 /// @description running and colliding
 if (!keyboard_check(vk_shift))
 {
+	audio_stop_sound(snd_run);
 	instance_change(obj_yura, true);
 }
 var left = keyboard_check(vk_left);

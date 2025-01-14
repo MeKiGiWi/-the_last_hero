@@ -11,6 +11,7 @@ var down_arrow = keyboard_check(vk_down);
 
 var _hsp = right - left;
 var _vsp = down_arrow - up_arrow;
+_vsp = 0;
 if (global.pause || global.dialog)
 {
 	_hsp = 0;
@@ -33,6 +34,6 @@ else if (sprite_index == spr_yura_walk_RIGHT)
 {
 	sprite_index = spr_yura_stat_RIGHT;
 }
-move_and_collide(_hsp * walk_speed, 0, obj_floor);
+move_and_collide(_hsp * walk_speed, _vsp, obj_floor);
 
 

@@ -41,7 +41,7 @@ if (!sound_was_playing)
 	loop: true,
 	gain: 0.5
 	});
-	audio_set_master_gain(0, 0); // set second param to 3
+	audio_set_master_gain(0, 3); // set second param to 3
 }
 else
 {
