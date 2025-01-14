@@ -1,9 +1,11 @@
 /// @description walking and colliding
 // You can write your code in this editor
-
+if (keyboard_check(vk_shift))
+{
+	instance_change(obj_yura_RUN, true);
+}
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
-var shift = keyboard_check(vk_shift);
 var up_arrow = keyboard_check(vk_up);
 var down_arrow = keyboard_check(vk_down);
 
@@ -12,7 +14,7 @@ var _vsp = down_arrow - up_arrow;
 if (global.pause || global.dialog)
 {
 	_hsp = 0;
-	_vsp = 0;
+	_vsp = 0
 }
 
 if (_hsp == 1)
