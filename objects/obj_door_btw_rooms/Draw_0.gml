@@ -1,9 +1,6 @@
-/// @description Smooth black screen
+/// @description Insert description here
 // You can write your code in this editor
-if (place_meeting(x, y, obj_yura) && keyboard_check_pressed(vk_enter))
-{
-	self.to_black = true;
-}
+
 if (self.to_black)
 {
 	self.opacity += 0.04;
@@ -15,7 +12,6 @@ if (self.to_black)
 		with (obj_yura)
 		{
 			x = other.roomx;
-			y = other.roomy;
 		}
 	}
 }
@@ -24,7 +20,6 @@ else
 	if(self.opacity > 0)
 		self.opacity -= 0.04;
 }
-
 draw_set_color(c_black);
 draw_set_alpha(self.opacity);
 var _tmp_depth = self.depth
