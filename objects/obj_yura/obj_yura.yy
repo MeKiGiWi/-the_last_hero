@@ -46,6 +46,9 @@
     "name":"spr_yura_stat_RIGHT",
     "path":"sprites/spr_yura_stat_RIGHT/spr_yura_stat_RIGHT.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_yura_stat_LEFT",
+    "path":"sprites/spr_yura_stat_LEFT/spr_yura_stat_LEFT.yy",
+  },
   "visible":true,
 }

@@ -13,6 +13,7 @@ _vsp = 0;
 if (keyboard_check(vk_shift))
 {
 	_hsp *= 3;
+	show_debug_message("regaet {0}", _hsp);
 }
 
 if (global.pause || global.dialog)
