@@ -4,3 +4,4 @@
 global.dialog = false;
 global.pause = false;
 global.room = 0;
+depth = -9999;
