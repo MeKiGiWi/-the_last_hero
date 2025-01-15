@@ -39,12 +39,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_yura_stat_RIGHT",
-    "path":"sprites/spr_yura_stat_RIGHT/spr_yura_stat_RIGHT.yy",
+    "name":"spr_yura_walk_RIGHT",
+    "path":"sprites/spr_yura_walk_RIGHT/spr_yura_walk_RIGHT.yy",
   },
   "spriteMaskId":{
-    "name":"spr_hitbox",
-    "path":"sprites/spr_hitbox/spr_hitbox.yy",
+    "name":"spr_yura_stat_RIGHT",
+    "path":"sprites/spr_yura_stat_RIGHT/spr_yura_stat_RIGHT.yy",
   },
   "visible":true,
 }

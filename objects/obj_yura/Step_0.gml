@@ -36,4 +36,7 @@ else if (sprite_index == spr_yura_walk_RIGHT)
 }
 move_and_collide(_hsp * walk_speed, _vsp, obj_floor);
 
-
+while (!place_meeting(x, y + 1, obj_floor))
+{
+	y++;
+}

@@ -1,9 +1,5 @@
 /// @description running and colliding
-if (!keyboard_check(vk_shift))
-{
-	audio_stop_sound(snd_run);
-	instance_change(obj_yura, true);
-}
+
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
 var up_arrow = keyboard_check(vk_up);
@@ -14,6 +10,26 @@ var _vsp = 0;
 if (global.dialog || global.pause)
 {
 	_hsp = 0;
+}
+
+if (!keyboard_check(vk_shift))
+{
+	audio_stop_sound(snd_run);
+	instance_change(obj_yura, true);
+	if (_hsp == 1)
+	{
+		with (obj_yura)
+		{
+		sprite_index = spr_yura_stat_RIGHT;
+		}
+	}
+	else if (_hsp == -1)
+	{
+		with (obj_yura)
+		{
+		sprite_index = spr_yura_stat_LEFT;
+		}
+	}
 }
 
 move_and_collide(_hsp * run_speed, _vsp, obj_floor);
