@@ -13,11 +13,11 @@
     {"name":"inst_B3FB39D_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_2974B40F","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_5E3015A5","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
-    {"name":"inst_8B8CD11","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_54190DDF","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_4737BE99","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_1BA662C5","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_1C408821","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
+    {"name":"inst_8B8CD11","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,7 +33,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"ROOM_TO_GO","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_street_1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"roomx","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"453",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"roomy","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3125,"scaleY":3.0,"x":502.0,"y":160.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.09375,"scaleY":3.0,"x":509.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_1C408821","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C408821","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"ROOM_TO_GO","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_room_1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"roomx","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"117",},
