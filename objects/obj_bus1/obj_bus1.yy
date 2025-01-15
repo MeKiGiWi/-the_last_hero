@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bus_full3_done2",
+    "path":"sprites/bus_full3_done2/bus_full3_done2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

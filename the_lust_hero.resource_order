@@ -64,7 +64,6 @@
     {"name":"rm_room_2","order":7,"path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"rm_steet_0","order":6,"path":"rooms/rm_steet_0/rm_steet_0.yy",},
     {"name":"rm_street_2","order":5,"path":"rooms/rm_street_2/rm_street_2.yy",},
-    {"name":"rm_text","order":2,"path":"rooms/rm_text/rm_text.yy",},
     {"name":"mus_konchitsya_leto","order":4,"path":"sounds/mus_konchitsya_leto/mus_konchitsya_leto.yy",},
     {"name":"snd_dogs","order":5,"path":"sounds/snd_dogs/snd_dogs.yy",},
     {"name":"snd_neigh","order":6,"path":"sounds/snd_neigh/snd_neigh.yy",},
