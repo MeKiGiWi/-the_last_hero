@@ -43,7 +43,6 @@
     {"name":"obj_dialog2","order":4,"path":"objects/obj_dialog2/obj_dialog2.yy",},
     {"name":"obj_door_btw_rooms","order":30,"path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},
     {"name":"obj_floor","order":29,"path":"objects/obj_floor/obj_floor.yy",},
-    {"name":"obj_fullscreen2","order":27,"path":"objects/obj_fullscreen2/obj_fullscreen2.yy",},
     {"name":"obj_goto_room","order":24,"path":"objects/obj_goto_room/obj_goto_room.yy",},
     {"name":"obj_snd_fx_street_1","order":28,"path":"objects/obj_snd_fx_street_1/obj_snd_fx_street_1.yy",},
     {"name":"obj_snd_run","order":9,"path":"objects/obj_snd_run/obj_snd_run.yy",},
