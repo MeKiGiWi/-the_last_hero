@@ -10,10 +10,14 @@ var _hsp = right - left;
 var _vsp = down_arrow - up_arrow;
 _vsp = 0;
 
-if (keyboard_check(vk_shift))
+while (!place_meeting(x, y + 1, obj_floor))
+{
+	y++;
+}
+
+if (keyboard_check(vk_shift) && !place_meeting(x, y + 1, obj_stairs))
 {
 	_hsp *= 3;
-	show_debug_message("regaet {0}", _hsp);
 }
 
 if (global.pause || global.dialog || global.black_scr_opacity > 0)
@@ -22,6 +26,7 @@ if (global.pause || global.dialog || global.black_scr_opacity > 0)
 	_vsp = 0
 }
 
+move_and_collide(_hsp * walk_speed, _vsp, obj_floor);
 if (_hsp == 1)
 {
 	sprite_index = spr_yura_walk_RIGHT;
@@ -47,9 +52,3 @@ else if (sprite_index == spr_yura_walk_RIGHT || sprite_index == spr_yura_run_RIG
 	sprite_index = spr_yura_stat_RIGHT;
 }
 
-move_and_collide(_hsp * walk_speed, _vsp, obj_floor);
-
-while (!place_meeting(x, y + 1, obj_floor))
-{
-	y++;
-}
