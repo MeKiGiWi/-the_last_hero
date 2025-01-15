@@ -16,7 +16,7 @@ if (keyboard_check(vk_shift))
 	show_debug_message("regaet {0}", _hsp);
 }
 
-if (global.pause || global.dialog)
+if (global.pause || global.dialog || global.black_scr_opacity > 0)
 {
 	_hsp = 0;
 	_vsp = 0

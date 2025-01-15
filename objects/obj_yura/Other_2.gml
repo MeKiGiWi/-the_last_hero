@@ -4,4 +4,6 @@
 global.dialog = false;
 global.pause = false;
 global.room = 0;
-depth = -9999;
+global.black_scr_opacity = 0;
+global.to_black_scr = false;
+global.gate_num = 0;

@@ -2,8 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_goto_room",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_goto_room",
@@ -39,5 +38,5 @@
     "path":"sprites/spr_enter_to_room/spr_enter_to_room.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
