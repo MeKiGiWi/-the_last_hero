@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"падик",
-    "path":"folders/Спрайты/фоны/падик.yy",
+    "name":"падики",
+    "path":"folders/Спрайты/фоны/падики.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

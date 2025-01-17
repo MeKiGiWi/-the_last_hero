@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_dialog11",
-    "path":"sprites/spr_dialog11/spr_dialog11.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

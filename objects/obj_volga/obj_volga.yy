@@ -6,8 +6,8 @@
   "name":"obj_volga",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"тачки йоу",
+    "path":"folders/Объекты/тачки йоу.yy",
   },
   "parentObjectId":null,
   "persistent":false,
