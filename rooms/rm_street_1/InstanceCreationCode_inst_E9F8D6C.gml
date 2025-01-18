@@ -1,12 +1,8 @@
 needx = 192;
 needy = 261;
 text = [
-"asdhfldsakjfhasdh",
-"test some",
-"dialog",
-"shit text",
-"cheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer",
-"that foo",
-"that bat",
-"asdajsd",
+"Съещь ещё этих французских булочек и булок, да выпей чаю.",
+"СЪЕШЬ ЕЩЁ ЭТИХ ФРАНЦУЗСКИХ БУЛОЧЕК И БУЛОК, ДА ВЫПЕЙ ЧАЮ!",
+"0123456789 ... 0 1 2 3 4 5 6 7 8 9",
+" ( . , ! ? : ) ",
 ]

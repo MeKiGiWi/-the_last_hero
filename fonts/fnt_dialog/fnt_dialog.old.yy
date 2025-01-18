@@ -10,7 +10,7 @@
   "charset":0,
   "first":0,
   "fontName":"agat-8",
-  "glyphOperations":6,
+  "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":14,"offset":0,"shift":2,"w":2,"x":2,"y":2,},
     "33":{"character":33,"h":14,"offset":1,"shift":5,"w":1,"x":161,"y":34,},
