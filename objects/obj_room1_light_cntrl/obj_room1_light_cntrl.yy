@@ -9,8 +9,8 @@
   "name":"obj_room1_light_cntrl",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"obj_room1",
+    "path":"folders/Объекты/Объекты ХатаЮры/obj_room1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

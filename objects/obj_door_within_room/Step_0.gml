@@ -1,31 +1,52 @@
 /// @description change global black scr op and entering btw rooms
 // You can write your code in this editor
-
-if (to_swap_masks)
+if (place_meeting(x, y, obj_yura) && keyboard_check(vk_enter) && !self.to_swap_masks)
 {
-	//global.to_black_scr = true;
-	//global.gate_num = id;
-	with (LEFT_MASK)
-	{
-		self.image_alpha += other.left_mask_dif > 0 ? other.left_mask_dif : 0;
-		if (other.left_mask_dif > 0 && self.image_alpha >= 1)
-		{
-			other.to_tp = true;
-		}
-	}
 	with (RIGHT_MASK)
 	{
-		self.image_alpha += other.right_mask_dif > 0 ? other.right_mask_dif : 0;
-		if (other.right_mask_dif > 0 && self.image_alpha >= 1 || global.black_scr_opacity >= 1)
+		if (self.image_alpha == 1)
+		{
+			other.cur_dir = 1;
+		}
+		else
+		{
+			other.cur_dir = -1;
+		}
+		self.image_alpha = 1;
+	}
+	with (LEFT_MASK)
+	{
+		self.image_alpha = 1;
+	}
+	self.to_swap_masks = true;
+	global.animation = true;
+}
+if (to_swap_masks)
+{
+	with (obj_yura)
+	{
+		image_alpha -= other.change_speed * 1;
+		if (image_alpha <= 0)
 		{
 			other.to_tp = true;
 		}
 	}
-	with (obj_yura)
-	{
-		image_alpha -= other.change_speed * 3;
-	}
+	//if (self.cur_dir == 1)
+	//{
+	//	with (obj_room1_BLACK_L)
+	//	{
+	//		image_alpha += other.change_speed * 1;
+	//	}
+	//}
+	//else
+	//{
+	//	with (obj_room1_BLACK_R)
+	//	{
+	//		image_alpha += other.change_speed * 1;
+	//	}
+	//}
 }
+
 if (self.to_tp)
 {
 	with (obj_yura)
@@ -34,7 +55,7 @@ if (self.to_tp)
 		y = other.roomy != -1 ? other.roomy: y;
 		image_alpha = 1;
 	}
-	if (self.right_mask_dif < 0)
+	if (self.cur_dir == 1)
 	{
 		with (RIGHT_MASK)
 		{
@@ -51,17 +72,4 @@ if (self.to_tp)
 	self.to_tp = false;
 	self.to_swap_masks = false;
 	global.animation = false;
-	global.to_black_scr = false;
-	//with (LEFT_MASK)
-	//{
-	//	image_alpha = !image_alpha;
-	//}
-	//with (RIGHT_MASK)
-	//{
-	//	image_alpha = !image_alpha;
-	//}
-}
-if (global.to_black_scr && global.gate_num = self.id)
-{
-	global.black_scr_opacity += self.change_speed;
 }
