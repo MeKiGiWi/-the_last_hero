@@ -87,6 +87,7 @@
     {"id":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},},
     {"id":{"name":"obj_room1_BLACK_L","path":"objects/obj_room1_BLACK_L/obj_room1_BLACK_L.yy",},},
     {"id":{"name":"obj_room1_BLACK_R","path":"objects/obj_room1_BLACK_R/obj_room1_BLACK_R.yy",},},
+    {"id":{"name":"obj_room1_light_cntrl","path":"objects/obj_room1_light_cntrl/obj_room1_light_cntrl.yy",},},
     {"id":{"name":"obj_room2_BLACK_L","path":"objects/obj_room2_BLACK_L/obj_room2_BLACK_L.yy",},},
     {"id":{"name":"obj_room2_BLACK_R","path":"objects/obj_room2_BLACK_R/obj_room2_BLACK_R.yy",},},
     {"id":{"name":"obj_snd_fx_street_1","path":"objects/obj_snd_fx_street_1/obj_snd_fx_street_1.yy",},},
@@ -209,9 +210,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
     {"roomId":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
     {"roomId":{"name":"rm_street_0","path":"rooms/rm_street_0/rm_street_0.yy",},},
-    {"roomId":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
     {"roomId":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"roomId":{"name":"rm_room_1_OLD","path":"rooms/rm_room_1_OLD/rm_room_1_OLD.yy",},},
     {"roomId":{"name":"rm_room_1_2_OLD","path":"rooms/rm_room_1_2_OLD/rm_room_1_2_OLD.yy",},},

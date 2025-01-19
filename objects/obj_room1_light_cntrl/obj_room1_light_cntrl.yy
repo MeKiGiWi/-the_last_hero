@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_room2_BLACK_L",
+  "%Name":"obj_room1_light_cntrl",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_room2_BLACK_L",
+  "name":"obj_room1_light_cntrl",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_room2",
-    "path":"folders/Объекты/Объекты ХатаЮры/obj_room2.yy",
+    "name":"Объекты",
+    "path":"folders/Объекты.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_room2_BLACK_L",
-    "path":"sprites/spr_room2_BLACK_L/spr_room2_BLACK_L.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

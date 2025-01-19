@@ -58,6 +58,7 @@
     {"name":"obj_floor","order":29,"path":"objects/obj_floor/obj_floor.yy",},
     {"name":"obj_goto_room","order":24,"path":"objects/obj_goto_room/obj_goto_room.yy",},
     {"name":"obj_room1_BLACK_R","order":1,"path":"objects/obj_room1_BLACK_R/obj_room1_BLACK_R.yy",},
+    {"name":"obj_room1_light_cntrl","order":35,"path":"objects/obj_room1_light_cntrl/obj_room1_light_cntrl.yy",},
     {"name":"obj_room2_BLACK_R","order":1,"path":"objects/obj_room2_BLACK_R/obj_room2_BLACK_R.yy",},
     {"name":"obj_snd_fx_street_1","order":28,"path":"objects/obj_snd_fx_street_1/obj_snd_fx_street_1.yy",},
     {"name":"obj_snd_run","order":9,"path":"objects/obj_snd_run/obj_snd_run.yy",},

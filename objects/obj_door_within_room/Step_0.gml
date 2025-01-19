@@ -7,16 +7,16 @@ if (to_swap_masks)
 	//global.gate_num = id;
 	with (LEFT_MASK)
 	{
-		self.image_alpha += other.left_mask_dif;
-	}
-	with (RIGHT_MASK)
-	{
-		self.image_alpha += other.right_mask_dif;
-		if (other.right_mask_dif > 0 && self.image_alpha >= 1 || global.black_scr_opacity >= 1)
+		self.image_alpha += other.left_mask_dif > 0 ? other.left_mask_dif : 0;
+		if (other.left_mask_dif > 0 && self.image_alpha >= 1)
 		{
 			other.to_tp = true;
 		}
-		else if (other.right_mask_dif < 0 && self.image_alpha <= 0)
+	}
+	with (RIGHT_MASK)
+	{
+		self.image_alpha += other.right_mask_dif > 0 ? other.right_mask_dif : 0;
+		if (other.right_mask_dif > 0 && self.image_alpha >= 1 || global.black_scr_opacity >= 1)
 		{
 			other.to_tp = true;
 		}
@@ -33,6 +33,20 @@ if (self.to_tp)
 		x = other.roomx != -1 ? other.roomx : x;
 		y = other.roomy != -1 ? other.roomy: y;
 		image_alpha = 1;
+	}
+	if (self.right_mask_dif < 0)
+	{
+		with (RIGHT_MASK)
+		{
+			image_alpha = 0;
+		}
+	}
+	else
+	{
+		with (LEFT_MASK)
+		{
+			image_alpha = 0;
+		}
 	}
 	self.to_tp = false;
 	self.to_swap_masks = false;
