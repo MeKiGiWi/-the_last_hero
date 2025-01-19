@@ -11,8 +11,8 @@ if (global.to_black_scr and global.gate_num == self.id)
 		global.to_black_scr = false;
 		with (obj_yura)
 		{
-			x = other.roomx;
-			y = other.roomy;
+			x = other.roomx != -1 ? other.roomx : x;
+			y = other.roomy != -1 ? other.roomy : y;
 		}
 	}
 }

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door_btw_rms_xy",
+  "%Name":"obj_door_btw_rooms",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_door_btw_rms_xy",
+  "name":"obj_door_btw_rooms",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
@@ -28,8 +28,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"ROOM_TO_GO","filters":[],"listItems":[],"multiselect":false,"name":"ROOM_TO_GO","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"roomx","filters":[],"listItems":[],"multiselect":false,"name":"roomx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"roomy","filters":[],"listItems":[],"multiselect":false,"name":"roomy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"roomx","filters":[],"listItems":[],"multiselect":false,"name":"roomx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"roomy","filters":[],"listItems":[],"multiselect":false,"name":"roomy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

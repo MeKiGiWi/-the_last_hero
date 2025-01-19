@@ -53,7 +53,7 @@
     {"name":"obj_car_outside2","order":1,"path":"objects/obj_car_outside2/obj_car_outside2.yy",},
     {"name":"obj_dialog_text_box","order":2,"path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},
     {"name":"obj_dialog2","order":4,"path":"objects/obj_dialog2/obj_dialog2.yy",},
-    {"name":"obj_door_btw_rms_xy","order":31,"path":"objects/obj_door_btw_rms_xy/obj_door_btw_rms_xy.yy",},
+    {"name":"obj_door_btw_rooms","order":31,"path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},
     {"name":"obj_door_within_room","order":30,"path":"objects/obj_door_within_room/obj_door_within_room.yy",},
     {"name":"obj_floor","order":29,"path":"objects/obj_floor/obj_floor.yy",},
     {"name":"obj_goto_room","order":24,"path":"objects/obj_goto_room/obj_goto_room.yy",},

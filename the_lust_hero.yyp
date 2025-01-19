@@ -81,7 +81,7 @@
     {"id":{"name":"obj_dialog_text_box","path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},},
     {"id":{"name":"obj_dialog_wall","path":"objects/obj_dialog_wall/obj_dialog_wall.yy",},},
     {"id":{"name":"obj_dialog2","path":"objects/obj_dialog2/obj_dialog2.yy",},},
-    {"id":{"name":"obj_door_btw_rms_xy","path":"objects/obj_door_btw_rms_xy/obj_door_btw_rms_xy.yy",},},
+    {"id":{"name":"obj_door_btw_rooms","path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},},
     {"id":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},},
