@@ -1,17 +1,33 @@
 /// @description change global black scr op and entering btw rooms
 // You can write your code in this editor
 
-if (global.to_black_scr and global.gate_num == self.id)
+if (to_swap_masks)
 {
-	global.black_scr_opacity += 0.04;
-	if (global.black_scr_opacity >= 1)
+	with (LEFT_MASK)
 	{
-		room_goto(self.ROOM_TO_GO);
-		global.room = self.ROOM_TO_GO;
-		global.to_black_scr = false;
-		with (obj_yura)
+		self.image_alpha += other.left_mask_dif;
+	}
+	with (RIGHT_MASK)
+	{
+		self.image_alpha += other.right_mask_dif;
+		if (other.right_mask_dif > 0 && self.image_alpha >= 1)
 		{
-			x = other.roomx;
+			other.to_tp = true;
+		}
+		else if (other.right_mask_dif < 0 && self.image_alpha <= 0)
+		{
+			other.to_tp = true;
 		}
 	}
+}
+if (self.to_tp)
+{
+	with (obj_yura)
+	{
+		x = other.roomx != -1 ? other.roomx : x;
+		y = other.roomy != -1 ? other.roomy: y;
+	}
+	self.to_tp = false;
+	self.to_swap_masks = false;
+	global.animation = false;
 }

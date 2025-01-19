@@ -1,24 +1,17 @@
 /// @description entering in room (only by x)
 
-if (LEFT_MASK != undefined)
+with (RIGHT_MASK)
 {
-	with (LEFT_MASK)
+	if (self.image_alpha >= 1)
 	{
-		self.image_alpha++;
-		self.image_alpha %= 2;
+		other.right_mask_dif = -1 * other.change_speed;
+		other.left_mask_dif = other.change_speed;
+	}
+	else
+	{
+		other.right_mask_dif = other.change_speed;
+		other.left_mask_dif = -1 * other.change_speed;
 	}
 }
-
-if (RIGHT_MASK != undefined)
-{
-	with (RIGHT_MASK)
-	{
-		self.image_alpha++;
-		self.image_alpha %= 2;
-	}
-}
-
-with (obj_yura)
-{
-	x = other.roomx;
-}
+self.to_swap_masks = true;
+global.animation = true;
