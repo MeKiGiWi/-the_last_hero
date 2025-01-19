@@ -17,7 +17,7 @@ while (!place_meeting(x, y + 1, obj_floor))
 
 if (keyboard_check(vk_shift) && !place_meeting(x, y + 1, obj_stairs))
 {
-	_hsp *= 3;
+	_hsp *= run_speed;
 }
 
 if (global.pause || global.dialog || global.black_scr_opacity > 0)
@@ -35,11 +35,11 @@ else if (_hsp == -1)
 {
 	sprite_index = spr_yura_walk_LEFT;
 }
-else if (_hsp == -3)
+else if (_hsp == -run_speed)
 {
 	sprite_index = spr_yura_run_LEFT;
 }
-else if (_hsp == 3)
+else if (_hsp == run_speed)
 {
 	sprite_index = spr_yura_run_RIGHT;
 }
