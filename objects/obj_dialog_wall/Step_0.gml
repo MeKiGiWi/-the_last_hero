@@ -5,7 +5,7 @@ var needx = sights[phrase_ind] == 1 ? needx1 : needx2;
 var needy = sights[phrase_ind] == 1 ? needy1 : needy2;
 if ((place_meeting(x, y, obj_yura)) && ENTER && !reading)
 {
-	my_text_box = instance_create_depth(needx, needy, -9999, self.goal_object, {
+	my_text_box = instance_create_depth(needx, needy, self.depth, self.goal_object, {
 		text: other.text[other.phrase_ind],
 		phrase_ind: other.phrase_ind,
 		});
@@ -26,7 +26,11 @@ else if(reading && ENTER)
 	{
 		needx = sights[phrase_ind] == 1 ? needx1 : needx2;
 		needy = sights[phrase_ind] == 1 ? needy1 : needy2;
-		my_text_box = instance_create_depth(needx, needy, -9999, self.goal_object, {
+		my_text_box = instance_create_depth(needx,
+		needy,
+		self.depth, 
+		self.goal_object,
+			{
 			text:  other.text[other.phrase_ind],
 			phrase_ind: other.phrase_ind
 			});
