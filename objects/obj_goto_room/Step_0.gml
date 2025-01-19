@@ -17,6 +17,10 @@ if (global.to_black_scr and global.gate_num == self.id)
 		{
 			x = other.roomx;
 			y = other.roomy;
+			if (other.START_SPRITE != undefined)
+			{
+				sprite_index = other.START_SPRITE;
+			}
 		}
 	}
 }
