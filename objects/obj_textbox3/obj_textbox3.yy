@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start_textbox3",
+  "%Name":"obj_textbox3",
   "eventList":[],
   "managed":true,
-  "name":"obj_start_textbox3",
+  "name":"obj_textbox3",
   "overriddenProperties":[],
   "parent":{
     "name":"Текст",
     "path":"folders/Объекты/Текст.yy",
   },
   "parentObjectId":{
-    "name":"obj_start_textbox",
-    "path":"objects/obj_start_textbox/obj_start_textbox.yy",
+    "name":"obj_textbox",
+    "path":"objects/obj_textbox/obj_textbox.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

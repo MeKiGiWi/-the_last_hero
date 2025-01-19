@@ -36,5 +36,5 @@
     "path":"sprites/spr_snow/spr_snow.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

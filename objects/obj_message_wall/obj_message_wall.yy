@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialog_wall",
+  "%Name":"obj_message_wall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialog_wall",
+  "name":"obj_message_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Текст",
@@ -34,14 +34,11 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"text","filters":[],"listItems":[],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"phrase_ind","filters":[],"listItems":[],"multiselect":false,"name":"phrase_ind","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"needx1","filters":[],"listItems":[],"multiselect":false,"name":"needx1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"needy1","filters":[],"listItems":[],"multiselect":false,"name":"needy1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"goal_object","filters":[],"listItems":[],"multiselect":false,"name":"goal_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"needx","filters":[],"listItems":[],"multiselect":false,"name":"needx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"needy","filters":[],"listItems":[],"multiselect":false,"name":"needy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"goal_object","filters":[],"listItems":[],"multiselect":false,"name":"goal_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_dialog_text_box","path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_dialog_text_box","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"reading","filters":[],"listItems":[],"multiselect":false,"name":"reading","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"proceed","filters":[],"listItems":[],"multiselect":false,"name":"proceed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"needx2","filters":[],"listItems":[],"multiselect":false,"name":"needx2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"needy2","filters":[],"listItems":[],"multiselect":false,"name":"needy2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"sights","filters":[],"listItems":[],"multiselect":false,"name":"sights","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
