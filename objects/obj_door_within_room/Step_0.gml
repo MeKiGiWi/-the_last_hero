@@ -19,6 +19,10 @@ if (to_swap_masks)
 			other.to_tp = true;
 		}
 	}
+	with (obj_yura)
+	{
+		image_alpha -= other.change_speed;
+	}
 }
 if (self.to_tp)
 {
@@ -26,6 +30,7 @@ if (self.to_tp)
 	{
 		x = other.roomx != -1 ? other.roomx : x;
 		y = other.roomy != -1 ? other.roomy: y;
+		image_alpha = 1;
 	}
 	self.to_tp = false;
 	self.to_swap_masks = false;
