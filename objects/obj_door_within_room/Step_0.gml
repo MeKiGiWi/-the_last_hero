@@ -21,7 +21,7 @@ if (to_swap_masks)
 	}
 	with (obj_yura)
 	{
-		image_alpha -= other.change_speed;
+		image_alpha -= other.change_speed * 2;
 	}
 }
 if (self.to_tp)
