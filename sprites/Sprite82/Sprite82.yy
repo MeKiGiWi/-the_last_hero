@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"the_lust_hero",
-    "path":"the_lust_hero.yyp",
+    "name":"БАРИКАДЫ",
+    "path":"folders/Спрайты/БАРИКАДЫ.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
