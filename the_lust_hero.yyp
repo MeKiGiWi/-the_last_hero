@@ -70,7 +70,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"the_lust_hero",
   "resources":[
@@ -84,6 +84,7 @@
     {"id":{"name":"obj_door_btw_rooms","path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},},
     {"id":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
+    {"id":{"name":"obj_goto_room_NOENTER","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},},
     {"id":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},},
     {"id":{"name":"obj_message_wall","path":"objects/obj_message_wall/obj_message_wall.yy",},},
     {"id":{"name":"obj_room1_BLACK_L","path":"objects/obj_room1_BLACK_L/obj_room1_BLACK_L.yy",},},
@@ -202,6 +203,7 @@
     {"id":{"name":"spr_yura_stat_RIGHT","path":"sprites/spr_yura_stat_RIGHT/spr_yura_stat_RIGHT.yy",},},
     {"id":{"name":"spr_yura_walk_LEFT","path":"sprites/spr_yura_walk_LEFT/spr_yura_walk_LEFT.yy",},},
     {"id":{"name":"spr_yura_walk_RIGHT","path":"sprites/spr_yura_walk_RIGHT/spr_yura_walk_RIGHT.yy",},},
+    {"id":{"name":"Sprite82","path":"sprites/Sprite82/Sprite82.yy",},},
     {"id":{"name":"UPD_bckgr_room3_4","path":"sprites/UPD_bckgr_room3_4/UPD_bckgr_room3_4.yy",},},
     {"id":{"name":"viniette_1","path":"sprites/viniette_1/viniette_1.yy",},},
     {"id":{"name":"viniette","path":"sprites/viniette/viniette.yy",},},
@@ -212,9 +214,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_room_2","path":"rooms/rm_room_2/rm_room_2.yy",},},
-    {"roomId":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
-    {"roomId":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
     {"roomId":{"name":"rm_street_0","path":"rooms/rm_street_0/rm_street_0.yy",},},
     {"roomId":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"roomId":{"name":"rm_room_1_OLD","path":"rooms/rm_room_1_OLD/rm_room_1_OLD.yy",},},
@@ -223,6 +222,9 @@
     {"roomId":{"name":"rm_room_2_2_OLD","path":"rooms/rm_room_2_2_OLD/rm_room_2_2_OLD.yy",},},
     {"roomId":{"name":"rm_street_2","path":"rooms/rm_street_2/rm_street_2.yy",},},
     {"roomId":{"name":"rm_entrance_2","path":"rooms/rm_entrance_2/rm_entrance_2.yy",},},
+    {"roomId":{"name":"rm_room_2","path":"rooms/rm_room_2/rm_room_2.yy",},},
+    {"roomId":{"name":"rm_room_1","path":"rooms/rm_room_1/rm_room_1.yy",},},
+    {"roomId":{"name":"rm_street_1","path":"rooms/rm_street_1/rm_street_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
