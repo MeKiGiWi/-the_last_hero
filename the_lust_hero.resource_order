@@ -28,7 +28,7 @@
     {"name":"БАРИКАДЫ","order":3,"path":"folders/Спрайты/БАРИКАДЫ.yy",},
     {"name":"визуал","order":1,"path":"folders/Спрайты/визуал.yy",},
     {"name":"детали","order":4,"path":"folders/Спрайты/визуал/детали.yy",},
-    {"name":"ДИАЛОГ","order":6,"path":"folders/Спрайты/ДИАЛОГ.yy",},
+    {"name":"ДИАЛОГ","order":5,"path":"folders/Спрайты/ДИАЛОГ.yy",},
     {"name":"машины","order":4,"path":"folders/Спрайты/машины.yy",},
     {"name":"волга","order":1,"path":"folders/Спрайты/машины/волга.yy",},
     {"name":"за окном тачки","order":3,"path":"folders/Спрайты/машины/за окном тачки.yy",},
@@ -124,10 +124,15 @@
     {"name":"spr_car1_outside_LEFT","order":2,"path":"sprites/spr_car1_outside_LEFT/spr_car1_outside_LEFT.yy",},
     {"name":"spr_car2_outside_LEFT","order":3,"path":"sprites/spr_car2_outside_LEFT/spr_car2_outside_LEFT.yy",},
     {"name":"spr_car2_outside_RIGHT","order":1,"path":"sprites/spr_car2_outside_RIGHT/spr_car2_outside_RIGHT.yy",},
+<<<<<<< HEAD
     {"name":"spr_dialog3","order":1,"path":"sprites/spr_dialog3/spr_dialog3.yy",},
     {"name":"spr_dialogbox_X","order":4,"path":"sprites/spr_dialogbox_X/spr_dialogbox_X.yy",},
     {"name":"spr_dialogbox_Y","order":5,"path":"sprites/spr_dialogbox_Y/spr_dialogbox_Y.yy",},
     {"name":"spr_diplomat","order":1,"path":"sprites/spr_diplomat/spr_diplomat.yy",},
+=======
+    {"name":"spr_dialogbox_X","order":3,"path":"sprites/spr_dialogbox_X/spr_dialogbox_X.yy",},
+    {"name":"spr_dialogbox_Y","order":4,"path":"sprites/spr_dialogbox_Y/spr_dialogbox_Y.yy",},
+>>>>>>> d9fcbb98cd93d2b22d163f7a529685a2e9727b4a
     {"name":"spr_door_xy","order":6,"path":"sprites/spr_door_xy/spr_door_xy.yy",},
     {"name":"spr_door","order":5,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_enter_to_room","order":2,"path":"sprites/spr_enter_to_room/spr_enter_to_room.yy",},
@@ -174,8 +179,8 @@
     {"name":"Sprite82","order":7,"path":"sprites/Sprite82/Sprite82.yy",},
     {"name":"UPD_bckgr_room3_4","order":6,"path":"sprites/UPD_bckgr_room3_4/UPD_bckgr_room3_4.yy",},
     {"name":"viniette_1","order":2,"path":"sprites/viniette_1/viniette_1.yy",},
-    {"name":"x_spr_dialog_anim","order":2,"path":"sprites/x_spr_dialog_anim/x_spr_dialog_anim.yy",},
-    {"name":"y_spr_dialog_anim","order":3,"path":"sprites/y_spr_dialog_anim/y_spr_dialog_anim.yy",},
+    {"name":"x_spr_dialog_anim","order":1,"path":"sprites/x_spr_dialog_anim/x_spr_dialog_anim.yy",},
+    {"name":"y_spr_dialog_anim","order":2,"path":"sprites/y_spr_dialog_anim/y_spr_dialog_anim.yy",},
     {"name":"TileSet1","order":23,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }
