@@ -87,8 +87,12 @@ if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 	}
 	
 	alarm[0] = room_speed * (random(10));
+	
 }
 else
 {
+	alarm[0] = -1;
+	audio_stop_sound(snd_dogs1);
+	audio_stop_sound(snd_dogs2);
 	audio_stop_sound(snd_wind_loop);
 }
