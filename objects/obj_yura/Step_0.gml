@@ -1,4 +1,4 @@
-/// @description walking and colliding
+/// @description walking, sounds
 // You can write your code in this editor
 
 var left = keyboard_check(vk_left);
