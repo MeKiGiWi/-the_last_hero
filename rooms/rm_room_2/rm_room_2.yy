@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_109EF186_1","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_1BAA0181_1","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_272E1E87_1","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_72EA0B0","path":"rooms/rm_room_2/rm_room_2.yy",},
@@ -26,6 +25,7 @@
     {"name":"inst_20ACA33D","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_23D8AECB","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_60C3303A","path":"rooms/rm_room_2/rm_room_2.yy",},
+    {"name":"inst_1723459D","path":"rooms/rm_room_2/rm_room_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -47,7 +47,7 @@
     {"$GMRBackgroundLayer":"","%Name":"lamp_on_right","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"lamp_on_right","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bckgr_lamp_on_RIGHT","path":"sprites/bckgr_lamp_on_RIGHT/bckgr_lamp_on_RIGHT.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"lamp_on_left","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"lamp_on_left","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bckgr_lamp_on_LEFT","path":"sprites/bckgr_lamp_on_LEFT/bckgr_lamp_on_LEFT.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Yura","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_109EF186_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_109EF186_1","objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":0.171875,"x":-2.0,"y":253.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1723459D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1723459D","objectId":{"name":"obj_wood_floor","path":"objects/obj_wood_floor/obj_wood_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.96875,"scaleY":0.1640625,"x":-3.0,"y":254.5,},
         {"$GMRInstance":"v1","%Name":"inst_2A27276","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A27276","objectId":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},"propertyId":{"name":"roomx","path":"objects/obj_door_within_room/obj_door_within_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"309",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},"propertyId":{"name":"LEFT_MASK","path":"objects/obj_door_within_room/obj_door_within_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_room2_BLACK_L",},

@@ -109,3 +109,26 @@ if (room == rm_entrance_1 || room == rm_entrance_2)
 		audio_stop_sound(snd_walk_ladder_loop);
 	}
 }
+
+
+//sounds of moving on wood floors
+if (room == rm_room_1 || room == rm_room_2)  && place_meeting(x, y + 3, obj_wood_floor)
+{
+	if !(audio_is_playing(snd_run_wood_loop)) && (abs(_hsp) == run_speed || abs(_vsp) == run_speed)
+	{
+		audio_stop_sound(snd_walk_wood_loop);
+		audio_play_sound(snd_run_wood_loop, 100, true);
+	}
+	else if (audio_is_playing(snd_run_wood_loop)) && (abs(_hsp) != run_speed && abs(_vsp) != run_speed)
+	{
+		audio_stop_sound(snd_run_wood_loop);
+	}
+	else if !(audio_is_playing(snd_walk_wood_loop)) && (_hsp != 0 || _vsp != 0) && !(audio_is_playing(snd_run_wood_loop))
+	{
+		audio_play_sound(snd_walk_wood_loop, 100, true);
+	}
+	else if (audio_is_playing(snd_walk_wood_loop)) && (_hsp == 0) && (_vsp == 0)
+	{
+		audio_stop_sound(snd_walk_wood_loop);
+	}
+}

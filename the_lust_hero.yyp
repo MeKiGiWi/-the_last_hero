@@ -122,6 +122,7 @@
     {"id":{"name":"obj_volga","path":"objects/obj_volga/obj_volga.yy",},},
     {"id":{"name":"obj_wall_LEFT","path":"objects/obj_wall_LEFT/obj_wall_LEFT.yy",},},
     {"id":{"name":"obj_wall_RIGHT","path":"objects/obj_wall_RIGHT/obj_wall_RIGHT.yy",},},
+    {"id":{"name":"obj_wood_floor","path":"objects/obj_wood_floor/obj_wood_floor.yy",},},
     {"id":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},},
     {"id":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"id":{"name":"rm_entrance_2","path":"rooms/rm_entrance_2/rm_entrance_2.yy",},},
