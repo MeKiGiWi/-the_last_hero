@@ -87,7 +87,6 @@ if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 	}
 	
 	alarm[0] = room_speed * (random(10));
-	
 }
 else
 {
@@ -95,4 +94,18 @@ else
 	audio_stop_sound(snd_dogs1);
 	audio_stop_sound(snd_dogs2);
 	audio_stop_sound(snd_wind_loop);
+}
+
+
+//sounds of walking on wood stairs
+if (room == rm_entrance_1 || room == rm_entrance_2)
+{
+	if !(audio_is_playing(snd_walk_ladder_loop)) && (_hsp != 0 || _vsp != 0) && (place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs))
+	{
+		audio_play_sound(snd_walk_ladder_loop, 100, true);
+	}
+	if !(place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs)) || (_hsp == 0 && _vsp == 0)
+	{
+		audio_stop_sound(snd_walk_ladder_loop);
+	}
 }
