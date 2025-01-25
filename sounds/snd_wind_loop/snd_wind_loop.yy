@@ -9,11 +9,11 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":64.416,
+  "duration":87.40571,
   "name":"snd_wind_loop",
   "parent":{
-    "name":"sounds",
-    "path":"folders/Звуки/sounds.yy",
+    "name":"улицы возле дома",
+    "path":"folders/Звуки/sounds/улицы возле дома.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_wind_loop.mp3",
   "type":0,
-  "volume":0.56,
+  "volume":1.0,
 }

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_HRAP_hrrr",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.675917,
+  "name":"snd_HRAP_hrrr",
+  "parent":{
+    "name":"падик юры",
+    "path":"folders/Звуки/sounds/падики/падик юры.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_HRAP_hrrr.mp3",
+  "type":0,
+  "volume":1.0,
+}

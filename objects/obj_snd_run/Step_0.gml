@@ -11,8 +11,8 @@ if (global.pause || global.dialog)
 
 if (_hsp == 0)
 {
-	audio_stop_sound(snd_walk);
-	audio_stop_sound(snd_run);
+	audio_stop_sound(snd_walk_loop);
+	audio_stop_sound(snd_run_loop);
 	playOnce2 = true;
 	playOnceWalk = true;
 }
@@ -20,8 +20,8 @@ else if (_shift)
 {
 	if (playOnce2)
 	{
-		audio_stop_sound(snd_walk);
-		audio_play_sound(snd_run, 0, 1, 0.6, undefined, 1.0);
+		audio_stop_sound(snd_walk_loop);
+		audio_play_sound(snd_run_loop, 0, 1, 0.6, undefined, 1.0);
 		playOnce2 = false;
 		playOnceWalk = true;
 	}
@@ -30,9 +30,9 @@ else
 {
 	if (playOnceWalk)
 	{
-		audio_stop_sound(snd_run);
-		audio_play_sound(snd_walk, 0, 1, 0.6, undefined, 1.0);
-		audio_stop_sound(snd_run);
+		audio_stop_sound(snd_run_loop);
+		audio_play_sound(snd_walk_loop, 0, 1, 0.6, undefined, 1.0);
+		audio_stop_sound(snd_run_loop);
 		playOnce2 = true;
 		playOnceWalk = false;
 	}

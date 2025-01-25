@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_fridge_loop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":396.27753,
+  "name":"snd_fridge_loop",
+  "parent":{
+    "name":"хата юры звуки",
+    "path":"folders/Звуки/sounds/хата юры звуки.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fridge_loop.mp3",
+  "type":0,
+  "volume":1.0,
+}
