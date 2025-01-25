@@ -1,6 +1,7 @@
 /// @description walking, sounds
 // You can write your code in this editor
 
+
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
 var up_arrow = keyboard_check(vk_up);
@@ -9,6 +10,7 @@ var down_arrow = keyboard_check(vk_down);
 var _hsp = right - left;
 var _vsp = down_arrow - up_arrow;
 _vsp = 0;
+
 
 while (!place_meeting(x, y + 1, obj_floor))
 {
@@ -67,10 +69,26 @@ if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 	}
 	else if !(audio_is_playing(snd_walk_loop)) && (_hsp != 0 || _vsp != 0) && !(audio_is_playing(snd_run_loop))
 	{
-		audio_play_sound(snd_walk_loop, 99, true);
+		audio_play_sound(snd_walk_loop, 100, true);
 	}
 	else if (audio_is_playing(snd_walk_loop)) && (_hsp == 0) && (_vsp == 0)
 	{
 		audio_stop_sound(snd_walk_loop);
 	}
+}
+
+
+//sounds of street
+if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
+{
+	if !(audio_is_playing(snd_wind_loop))
+	{
+		audio_play_sound(snd_wind_loop, 99, true);
+	}
+	
+	alarm[0] = room_speed * (random(10));
+}
+else
+{
+	audio_stop_sound(snd_wind_loop);
 }
