@@ -10,6 +10,7 @@
     {"name":"ГОЛОСА (ДИАЛОГИ)","order":1,"path":"folders/Звуки/ГОЛОСА (ДИАЛОГИ).yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
     {"name":"obj_wood_floor","order":1,"path":"objects/obj_wood_floor/obj_wood_floor.yy",},
     {"name":"snd_car_toRIGHT_window","order":1,"path":"sounds/snd_car_toRIGHT_window/snd_car_toRIGHT_window.yy",},
     {"name":"snd_creak_1","order":8,"path":"sounds/snd_creak_1/snd_creak_1.yy",},
