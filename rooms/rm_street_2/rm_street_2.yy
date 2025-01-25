@@ -9,8 +9,6 @@
     {"name":"inst_72B1AEDF","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_32C1D793","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_173CD8F4","path":"rooms/rm_street_2/rm_street_2.yy",},
-    {"name":"inst_155B5289","path":"rooms/rm_street_2/rm_street_2.yy",},
-    {"name":"inst_5EB119F9","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_1F68AA5E","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_3596ECD6","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_CAF379C","path":"rooms/rm_street_2/rm_street_2.yy",},
@@ -52,10 +50,7 @@
       ],"layers":[],"name":"yura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"carss","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"carss","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_street_2_cars","path":"sprites/spr_street_2_cars/spr_street_2_cars.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_street_2_1","path":"sprites/spr_street_2_1/spr_street_2_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"sounds","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_155B5289","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_155B5289","objectId":{"name":"obj_snd_walk","path":"objects/obj_snd_walk/obj_snd_walk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3.0,"y":-27.0,},
-        {"$GMRInstance":"v1","%Name":"inst_5EB119F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EB119F9","objectId":{"name":"obj_snd_run","path":"objects/obj_snd_run/obj_snd_run.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":29.0,"y":-28.0,},
-      ],"layers":[],"name":"sounds","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"sounds","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"sounds","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_street_2",
   "parent":{

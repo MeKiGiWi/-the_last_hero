@@ -7,12 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_44A26219","path":"rooms/rm_street_1/rm_street_1.yy",},
-    {"name":"inst_71069857","path":"rooms/rm_street_1/rm_street_1.yy",},
-    {"name":"inst_B3FB39D","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_F3D1135","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_3EB52109","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_E9F8D6C","path":"rooms/rm_street_1/rm_street_1.yy",},
-    {"name":"inst_3DEF6437","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_6CAE2ED9","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_1956786D","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_68A4C821","path":"rooms/rm_street_1/rm_street_1.yy",},
@@ -36,9 +33,6 @@
       ],"layers":[],"name":"snowfall","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"rm_streethome2","path":"sprites/rm_streethome2/rm_streethome2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Yura","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_71069857","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71069857","objectId":{"name":"obj_snd_walk","path":"objects/obj_snd_walk/obj_snd_walk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":-32.0,},
-        {"$GMRInstance":"v1","%Name":"inst_B3FB39D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B3FB39D","objectId":{"name":"obj_snd_run","path":"objects/obj_snd_run/obj_snd_run.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":-32.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3DEF6437","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DEF6437","objectId":{"name":"obj_snd_fx_street_1","path":"objects/obj_snd_fx_street_1/obj_snd_fx_street_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":-32.0,},
         {"$GMRInstance":"v1","%Name":"inst_6CAE2ED9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CAE2ED9","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"ROOM_TO_GO","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_entrance_1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"roomx","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"506",},

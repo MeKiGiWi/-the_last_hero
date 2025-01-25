@@ -52,3 +52,25 @@ else if (sprite_index == spr_yura_walk_RIGHT || sprite_index == spr_yura_run_RIG
 	sprite_index = spr_yura_stat_RIGHT;
 }
 
+
+//sounds of moving on street
+if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
+{
+	if !(audio_is_playing(snd_run_loop)) && (abs(_hsp) == run_speed || abs(_vsp) == run_speed)
+	{
+		audio_stop_sound(snd_walk_loop);
+		audio_play_sound(snd_run_loop, 100, true);
+	}
+	else if (audio_is_playing(snd_run_loop)) && (abs(_hsp) != run_speed && abs(_vsp) != run_speed)
+	{
+		audio_stop_sound(snd_run_loop);
+	}
+	else if !(audio_is_playing(snd_walk_loop)) && (_hsp != 0 || _vsp != 0) && !(audio_is_playing(snd_run_loop))
+	{
+		audio_play_sound(snd_walk_loop, 99, true);
+	}
+	else if (audio_is_playing(snd_walk_loop)) && (_hsp == 0) && (_vsp == 0)
+	{
+		audio_stop_sound(snd_walk_loop);
+	}
+}
