@@ -1,15 +1,17 @@
 {
   "FolderOrderSettings":[
+    {"name":"ГОЛОСА (ДИАЛОГИ)","order":5,"path":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy",},
     {"name":"двери","order":3,"path":"folders/Звуки/sounds/двери.yy",},
     {"name":"звуки шагов","order":4,"path":"folders/Звуки/sounds/звуки шагов.yy",},
     {"name":"падики","order":1,"path":"folders/Звуки/sounds/падики.yy",},
     {"name":"падик 2","order":2,"path":"folders/Звуки/sounds/падики/падик 2.yy",},
     {"name":"падик юры","order":1,"path":"folders/Звуки/sounds/падики/падик юры.yy",},
     {"name":"хата юры звуки","order":2,"path":"folders/Звуки/sounds/хата юры звуки.yy",},
-    {"name":"ГОЛОСА (ДИАЛОГИ)","order":5,"path":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy",},
+    {"name":"темы над головой","order":1,"path":"folders/Спрайты/персонажи/темы над головой.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_goto_entrance","order":3,"path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},
+    {"name":"obj_note","order":1,"path":"objects/obj_note/obj_note.yy",},
     {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
     {"name":"obj_wood_floor","order":1,"path":"objects/obj_wood_floor/obj_wood_floor.yy",},
     {"name":"snd_car_toRIGHT_window","order":1,"path":"sounds/snd_car_toRIGHT_window/snd_car_toRIGHT_window.yy",},
@@ -41,6 +43,9 @@
     {"name":"snd_walk_loop","order":3,"path":"sounds/snd_walk_loop/snd_walk_loop.yy",},
     {"name":"snd_walk_padik_loop","order":4,"path":"sounds/snd_walk_padik_loop/snd_walk_padik_loop.yy",},
     {"name":"snd_walk_wood_loop","order":1,"path":"sounds/snd_walk_wood_loop/snd_walk_wood_loop.yy",},
+    {"name":"spr_eye","order":2,"path":"sprites/spr_eye/spr_eye.yy",},
+    {"name":"spr_note","order":1,"path":"sprites/spr_note/spr_note.yy",},
     {"name":"spr_volga_stat_LEFT","order":6,"path":"sprites/spr_volga_stat_LEFT/spr_volga_stat_LEFT.yy",},
+    {"name":"spr_znak","order":1,"path":"sprites/spr_znak/spr_znak.yy",},
   ],
 }
