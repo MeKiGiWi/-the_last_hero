@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_HRAP_hrrr.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.6,
 }

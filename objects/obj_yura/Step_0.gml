@@ -55,7 +55,7 @@ else if (sprite_index == spr_yura_walk_RIGHT || sprite_index == spr_yura_run_RIG
 }
 
 
-//sounds of moving on street
+//sounds of walking and running on street
 if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 {
 	if !(audio_is_playing(snd_run_loop)) && (abs(_hsp) == run_speed || abs(_vsp) == run_speed)
@@ -95,25 +95,6 @@ else
 	audio_stop_sound(snd_dogs1);
 	audio_stop_sound(snd_dogs2);
 	audio_stop_sound(snd_wind_loop);
-}
-
-
-//sounds of walking on wood stairs
-if (room == rm_entrance_1 || room == rm_entrance_2)
-{
-	if !(audio_is_playing(snd_walk_ladder_loop)) && (_hsp != 0 || _vsp != 0) && (place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs))
-	{
-		audio_play_sound(snd_walk_ladder_loop, 100, true);
-		alarm[1] = room_speed * random(2);
-	}
-	if !(place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs)) || (_hsp == 0 && _vsp == 0)
-	{
-		alarm[1] = -1;
-		audio_stop_sound(snd_creak_padik);
-		audio_stop_sound(snd_creak_padik2);
-		audio_stop_sound(snd_creak_padik3);
-		audio_stop_sound(snd_walk_ladder_loop);
-	}
 }
 
 
@@ -165,6 +146,25 @@ if (room == rm_room_1)  && place_meeting(x, y + 3, obj_tile_floor)
 }
 
 
+//sounds of walking on wood stairs
+if (room == rm_entrance_1 || room == rm_entrance_2)
+{
+	if !(audio_is_playing(snd_walk_ladder_loop)) && (_hsp != 0 || _vsp != 0) && (place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs))
+	{
+		audio_play_sound(snd_walk_ladder_loop, 100, true);
+		alarm[1] = room_speed * random(2);
+	}
+	if !(place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs)) || (_hsp == 0 && _vsp == 0)
+	{
+		alarm[1] = -1;
+		audio_stop_sound(snd_creak_padik);
+		audio_stop_sound(snd_creak_padik2);
+		audio_stop_sound(snd_creak_padik3);
+		audio_stop_sound(snd_walk_ladder_loop);
+	}
+}
+
+
 //sounds of walking and running in entrances
 if ((room == rm_entrance_1) || (room == rm_entrance_2))
 {
@@ -186,4 +186,30 @@ if ((room == rm_entrance_1) || (room == rm_entrance_2))
 		audio_stop_sound(snd_walk_padik_loop);
 		audio_stop_sound(snd_run_padik_loop);
 	}
+}
+
+
+//sounds of rm_entrance_1
+if (room == rm_entrance_1)
+{
+	if !(audio_is_playing(snd_padik_loop))
+	{
+		audio_play_sound(snd_padik_loop, 98, false);
+	}
+	alarm[2] = room_speed * 52;
+	if !(audio_is_playing(snd_HRAP_hrrr))
+	{
+		audio_play_sound(snd_HRAP_hrrr, 99, true);
+	}
+	alarm[3] = room_speed * random(8);
+}
+else
+{
+	alarm[2] = -1;
+	audio_stop_sound(snd_padik_loop);
+	audio_stop_sound(snd_HRAP_hrrr);
+	alarm[3] = -1;
+	audio_stop_sound(snd_neigh_padik);
+	audio_stop_sound(snd_neigh_padik2);
+	audio_stop_sound(snd_neigh_padik3);
 }
