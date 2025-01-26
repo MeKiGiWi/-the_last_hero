@@ -22,7 +22,7 @@
     {"$GMFolder":"","%Name":"падик юры","folderPath":"folders/Звуки/sounds/падики/падик юры.yy","name":"падик юры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"улицы возле дома","folderPath":"folders/Звуки/sounds/улицы возле дома.yy","name":"улицы возле дома","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"хата юры звуки","folderPath":"folders/Звуки/sounds/хата юры звуки.yy","name":"хата юры звуки","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"ГОЛОСА (ДИАЛОГИ)","folderPath":"folders/Звуки/ГОЛОСА (ДИАЛОГИ).yy","name":"ГОЛОСА (ДИАЛОГИ)","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ГОЛОСА (ДИАЛОГИ)","folderPath":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy","name":"ГОЛОСА (ДИАЛОГИ)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Кривые анимации","folderPath":"folders/Кривые анимации.yy","name":"Кривые анимации","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Наборы плиток","folderPath":"folders/Наборы плиток.yy","name":"Наборы плиток","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Объекты","folderPath":"folders/Объекты.yy","name":"Объекты","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -82,7 +82,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"the_lust_hero",
   "resources":[

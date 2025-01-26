@@ -1,13 +1,12 @@
 {
   "FolderOrderSettings":[
-    {"name":"двери","order":4,"path":"folders/Звуки/sounds/двери.yy",},
-    {"name":"звуки шагов","order":5,"path":"folders/Звуки/sounds/звуки шагов.yy",},
-    {"name":"падики","order":2,"path":"folders/Звуки/sounds/падики.yy",},
+    {"name":"двери","order":3,"path":"folders/Звуки/sounds/двери.yy",},
+    {"name":"звуки шагов","order":4,"path":"folders/Звуки/sounds/звуки шагов.yy",},
+    {"name":"падики","order":1,"path":"folders/Звуки/sounds/падики.yy",},
     {"name":"падик 2","order":2,"path":"folders/Звуки/sounds/падики/падик 2.yy",},
     {"name":"падик юры","order":1,"path":"folders/Звуки/sounds/падики/падик юры.yy",},
-    {"name":"улицы возле дома","order":1,"path":"folders/Звуки/sounds/улицы возле дома.yy",},
-    {"name":"хата юры звуки","order":3,"path":"folders/Звуки/sounds/хата юры звуки.yy",},
-    {"name":"ГОЛОСА (ДИАЛОГИ)","order":1,"path":"folders/Звуки/ГОЛОСА (ДИАЛОГИ).yy",},
+    {"name":"хата юры звуки","order":2,"path":"folders/Звуки/sounds/хата юры звуки.yy",},
+    {"name":"ГОЛОСА (ДИАЛОГИ)","order":5,"path":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_goto_entrance","order":3,"path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},

@@ -13,7 +13,7 @@
   "name":"snd_voice_man",
   "parent":{
     "name":"ГОЛОСА (ДИАЛОГИ)",
-    "path":"folders/Звуки/ГОЛОСА (ДИАЛОГИ).yy",
+    "path":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy",
   },
   "preload":false,
   "resourceType":"GMSound",

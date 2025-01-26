@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_dogs1.mp3",
-  "type":0,
-  "volume":0.75,
+  "type":2,
+  "volume":0.5,
 }
