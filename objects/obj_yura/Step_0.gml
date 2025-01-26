@@ -158,3 +158,27 @@ if (room == rm_room_1)  && place_meeting(x, y + 3, obj_tile_floor)
 		audio_stop_sound(snd_run_bathroom_loop);
 	}
 }
+
+
+//sounds of walking and running in entrances
+if ((room == rm_entrance_1) || (room == rm_entrance_2))
+{
+	if !(audio_is_playing(snd_run_padik_loop)) && (abs(_hsp) == run_speed || abs(_vsp) == run_speed)
+	{
+		audio_stop_sound(snd_walk_padik_loop);
+		audio_play_sound(snd_run_padik_loop, 100, true);
+	}
+	else if (audio_is_playing(snd_run_padik_loop)) && (abs(_hsp) != run_speed && abs(_vsp) != run_speed)
+	{
+		audio_stop_sound(snd_run_padik_loop);
+	}
+	else if !(audio_is_playing(snd_walk_padik_loop)) && (_hsp != 0 || _vsp != 0) && !(audio_is_playing(snd_run_padik_loop))
+	{
+		audio_play_sound(snd_walk_padik_loop, 100, true);
+	}
+	else if (audio_is_playing(snd_walk_padik_loop)) && (_hsp == 0) && (_vsp == 0) || place_meeting(x, y, obj_wall_LEFT) || place_meeting(x, y, obj_wall_RIGHT) || (place_meeting(x, y + 5, obj_stairs))
+	{
+		audio_stop_sound(snd_walk_padik_loop);
+		audio_stop_sound(snd_run_padik_loop);
+	}
+}
