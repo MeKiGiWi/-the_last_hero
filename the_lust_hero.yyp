@@ -98,6 +98,7 @@
     {"id":{"name":"obj_door_btw_rooms","path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},},
     {"id":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
+    {"id":{"name":"obj_goto_entrance","path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},},
     {"id":{"name":"obj_goto_room_NOENTER","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},},
     {"id":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},},
     {"id":{"name":"obj_message_wall","path":"objects/obj_message_wall/obj_message_wall.yy",},},
