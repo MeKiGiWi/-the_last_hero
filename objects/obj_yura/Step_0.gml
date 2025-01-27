@@ -71,7 +71,7 @@ if (room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 	{
 		audio_play_sound(snd_walk_loop, 100, true);
 	}
-	else if (audio_is_playing(snd_walk_loop)) && (_hsp == 0) && (_vsp == 0)
+	else if (audio_is_playing(snd_walk_loop)) && (_hsp == 0) && (_vsp == 0) || place_meeting(x, y, obj_wall_LEFT) || place_meeting(x, y, obj_wall_RIGHT)
 	{
 		audio_stop_sound(snd_walk_loop);
 		audio_stop_sound(snd_run_loop);
