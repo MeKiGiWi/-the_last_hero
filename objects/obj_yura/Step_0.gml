@@ -157,9 +157,6 @@ if (room == rm_entrance_1 || room == rm_entrance_2)
 	if !(place_meeting(x, y + 5, obj_stairs) || place_meeting(x, y - 5, obj_stairs)) || (_hsp == 0 && _vsp == 0)
 	{
 		alarm[1] = -1;
-		audio_stop_sound(snd_creak_padik);
-		audio_stop_sound(snd_creak_padik2);
-		audio_stop_sound(snd_creak_padik3);
 		audio_stop_sound(snd_walk_ladder_loop);
 	}
 }
