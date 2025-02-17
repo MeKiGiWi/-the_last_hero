@@ -65,7 +65,7 @@
   "origin":0,
   "parent":{
     "name":"пазик",
-    "path":"folders/Спрайты/машины/пазик.yy",
+    "path":"folders/Спрайты/НАЧАЛО/пазик.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
