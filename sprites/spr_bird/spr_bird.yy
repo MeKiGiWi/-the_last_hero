@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"детали",
-    "path":"folders/Спрайты/визуал/детали.yy",
+    "name":"прочее",
+    "path":"folders/Спрайты/НАЧАЛО/прочее.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
