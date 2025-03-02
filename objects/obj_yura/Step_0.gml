@@ -25,7 +25,7 @@ if (keyboard_check(vk_shift) && !place_meeting(x, y + 1, obj_stairs))
 if (global.pause || global.dialog || global.black_scr_opacity > 0 || global.animation)
 {
 	_hsp = 0;
-	_vsp = 0
+	_vsp = 0;
 }
 
 move_and_collide(_hsp * walk_speed, _vsp, obj_floor);

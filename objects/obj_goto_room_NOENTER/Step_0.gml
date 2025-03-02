@@ -3,7 +3,7 @@
 if (place_meeting(x, y, obj_yura))
 {
 	global.to_black_scr = true;
-	global.gate_num = self.id
+	global.gate_num = self.id;
 }
 if (global.to_black_scr and global.gate_num == self.id)
 {
