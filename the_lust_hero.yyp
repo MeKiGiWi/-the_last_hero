@@ -106,6 +106,7 @@
     {"id":{"name":"obj_car_outside1","path":"objects/obj_car_outside1/obj_car_outside1.yy",},},
     {"id":{"name":"obj_car_outside2","path":"objects/obj_car_outside2/obj_car_outside2.yy",},},
     {"id":{"name":"obj_dialog_text_box","path":"objects/obj_dialog_text_box/obj_dialog_text_box.yy",},},
+    {"id":{"name":"obj_dialog_wall","path":"objects/obj_dialog_wall/obj_dialog_wall.yy",},},
     {"id":{"name":"obj_dialog2","path":"objects/obj_dialog2/obj_dialog2.yy",},},
     {"id":{"name":"obj_diplomat","path":"objects/obj_diplomat/obj_diplomat.yy",},},
     {"id":{"name":"obj_door_btw_rooms","path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},},
