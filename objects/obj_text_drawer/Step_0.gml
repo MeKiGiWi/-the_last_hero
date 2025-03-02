@@ -44,3 +44,15 @@ if (!is_finished)
         }
     }
 }
+else if (!smooth)
+{
+    instance_destroy(id, true);
+}
+else
+{
+    image_alpha -= sm_speed / room_speed;
+    if (image_alpha <= 0)
+    {
+        instance_destroy(id);
+    }
+}

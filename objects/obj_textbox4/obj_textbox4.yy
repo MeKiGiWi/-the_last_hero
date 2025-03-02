@@ -9,10 +9,7 @@
     "name":"Текст",
     "path":"folders/Объекты/Текст.yy",
   },
-  "parentObjectId":{
-    "name":"obj_textbox",
-    "path":"objects/obj_textbox/obj_textbox.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
