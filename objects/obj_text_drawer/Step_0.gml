@@ -27,6 +27,15 @@ if (!is_finished)
                     break;
                 }
                 current_text += string_char_at(full_text, char_index + 1);
+                if (string_char_at(current_text, char_index + 1) == "\n")
+                {
+                    count_newlines++;
+                    current_line = "";
+                }
+                else
+                {
+                    current_line += string_char_at(full_text, char_index + 1);
+                }
                 char_index++;
             }
         }
@@ -34,6 +43,16 @@ if (!is_finished)
         else if (char_index < string_length(full_text)) 
         {
             current_text += string_char_at(full_text, char_index + 1);
+            // Calcualtions for support highlighting cursor
+            if (string_char_at(current_text, char_index + 1) == "\n")
+            {
+                count_newlines++;
+                current_line = "";
+            }
+            else
+            {
+                current_line += string_char_at(full_text, char_index + 1);
+            }
             char_index++;
             // Здесь можно добавить звук печати
             // audio_play_sound(snd_type, 1, false);
@@ -44,6 +63,7 @@ if (!is_finished)
         }
     }
 }
+// Уничтожение текста плавное или моментальное
 else if (!smooth)
 {
     instance_destroy(id, true);

@@ -10,8 +10,8 @@
   "name":"obj_text_drawer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Текст",
-    "path":"folders/Объекты/Текст.yy",
+    "name":"support_objects",
+    "path":"folders/Объекты/Текст/support_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
