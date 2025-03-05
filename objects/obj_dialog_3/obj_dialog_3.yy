@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialog2",
-  "eventList":[],
+  "%Name":"obj_dialog_3",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_dialog2",
+  "name":"obj_dialog_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Текст",

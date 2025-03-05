@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_textbox4",
+  "%Name":"obj_const_text_drawer",
   "eventList":[],
   "managed":true,
-  "name":"obj_textbox4",
+  "name":"obj_const_text_drawer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Текст",
-    "path":"folders/Объекты/Текст.yy",
+    "name":"support_objects",
+    "path":"folders/Объекты/Текст/support_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_dialogbox_Y",
-    "path":"sprites/spr_dialogbox_Y/spr_dialogbox_Y.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
