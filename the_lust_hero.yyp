@@ -96,7 +96,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"the_lust_hero",
   "resources":[
@@ -307,6 +307,7 @@
     {"id":{"name":"spr_start_road","path":"sprites/spr_start_road/spr_start_road.yy",},},
     {"id":{"name":"spr_street_2_1","path":"sprites/spr_street_2_1/spr_street_2_1.yy",},},
     {"id":{"name":"spr_street_2_2","path":"sprites/spr_street_2_2/spr_street_2_2.yy",},},
+    {"id":{"name":"spr_street_2_3","path":"sprites/spr_street_2_3/spr_street_2_3.yy",},},
     {"id":{"name":"spr_street_2_cars","path":"sprites/spr_street_2_cars/spr_street_2_cars.yy",},},
     {"id":{"name":"spr_street_2_vingette","path":"sprites/spr_street_2_vingette/spr_street_2_vingette.yy",},},
     {"id":{"name":"spr_street0_1","path":"sprites/spr_street0_1/spr_street0_1.yy",},},

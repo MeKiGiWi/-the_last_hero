@@ -101,6 +101,7 @@
     {"name":"spr_smoke","order":5,"path":"sprites/spr_smoke/spr_smoke.yy",},
     {"name":"spr_start_back1","order":1,"path":"sprites/spr_start_back1/spr_start_back1.yy",},
     {"name":"spr_start_road","order":2,"path":"sprites/spr_start_road/spr_start_road.yy",},
+    {"name":"spr_street_2_3","order":1,"path":"sprites/spr_street_2_3/spr_street_2_3.yy",},
     {"name":"spr_volga_stat_LEFT","order":6,"path":"sprites/spr_volga_stat_LEFT/spr_volga_stat_LEFT.yy",},
     {"name":"spr_wood_2","order":1,"path":"sprites/spr_wood_2/spr_wood_2.yy",},
     {"name":"spr_wood_3","order":2,"path":"sprites/spr_wood_3/spr_wood_3.yy",},
