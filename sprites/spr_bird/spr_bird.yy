@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"прочее",
-    "path":"folders/Спрайты/НАЧАЛО/прочее.yy",
+    "name":"ПТИЦ",
+    "path":"folders/Спрайты/НАЧАЛО/прочее/ПТИЦ.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
