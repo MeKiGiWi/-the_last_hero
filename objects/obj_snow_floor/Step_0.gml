@@ -1,0 +1,1 @@
+play_steps_sounds(obj_yura, snd_walk_loop, snd_run_loop);

@@ -14,7 +14,6 @@
     {"name":"inst_3A646815","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_15CA12B7","path":"rooms/rm_street_2/rm_street_2.yy",},
     {"name":"inst_3E1E09A4","path":"rooms/rm_street_2/rm_street_2.yy",},
-    {"name":"inst_2F7A9967","path":"rooms/rm_street_2/rm_street_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,7 +48,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"roomy","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"253",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room","path":"objects/obj_goto_room/obj_goto_room.yy",},"propertyId":{"name":"START_SPRITE","path":"objects/obj_goto_room/obj_goto_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_yura_stat_LEFT",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.0625,"scaleY":1.0,"x":263.0,"y":213.0,},
-        {"$GMRInstance":"v2","%Name":"inst_2F7A9967","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F7A9967","objectId":{"name":"obj_snd_snow_steps_controller","path":"objects/obj_snd_snow_steps_controller/obj_snd_snow_steps_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":33.0,"scaleY":33.0,"x":32.0,"y":-32.0,},
       ],"layers":[],"name":"yura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"carss","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"carss","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_street_2_cars","path":"sprites/spr_street_2_cars/spr_street_2_cars.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_street_2_1","path":"sprites/spr_street_2_1/spr_street_2_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

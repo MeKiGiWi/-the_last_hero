@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_snd_snow_steps_controller",
+  "%Name":"obj_stone_steps_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_snd_snow_steps_controller",
+  "name":"obj_stone_steps_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_snow",
-    "path":"sprites/spr_snow/spr_snow.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -16,7 +16,6 @@
     {"name":"inst_328DEBA9","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_719FF26A","path":"rooms/rm_street_1/rm_street_1.yy",},
     {"name":"inst_6D1F3E2A","path":"rooms/rm_street_1/rm_street_1.yy",},
-    {"name":"inst_7B1E8A63","path":"rooms/rm_street_1/rm_street_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,7 +53,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room_NOENTER","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},"propertyId":{"name":"roomy","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto_room_NOENTER","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},"propertyId":{"name":"START_SPRITE","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_yura_stat_LEFT",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.078125,"scaleY":1.4375,"x":0.0,"y":162.0,},
-        {"$GMRInstance":"v2","%Name":"inst_7B1E8A63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B1E8A63","objectId":{"name":"obj_snd_snow_steps_controller","path":"objects/obj_snd_snow_steps_controller/obj_snd_snow_steps_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":33.0,"scaleY":33.0,"x":32.0,"y":-32.0,},
       ],"layers":[],"name":"Yura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ground","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1956786D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1956786D","objectId":{"name":"obj_snow_floor","path":"objects/obj_snow_floor/obj_snow_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":0.234375,"x":-6.0,"y":253.0,},

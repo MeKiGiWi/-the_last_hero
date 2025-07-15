@@ -24,7 +24,6 @@
     {"name":"inst_641E8E54","path":"rooms/rm_room_1/rm_room_1.yy",},
     {"name":"inst_58556C0E","path":"rooms/rm_room_1/rm_room_1.yy",},
     {"name":"inst_1B15971C","path":"rooms/rm_room_1/rm_room_1.yy",},
-    {"name":"inst_602F0FE7","path":"rooms/rm_room_1/rm_room_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,7 +44,6 @@
     {"$GMRInstanceLayer":"","%Name":"Yura","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_7CF18BC_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CF18BC_1","objectId":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":228.0,"y":251.0,},
         {"$GMRInstance":"v2","%Name":"inst_60FC3321","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60FC3321","objectId":{"name":"obj_room1_light_cntrl","path":"objects/obj_room1_light_cntrl/obj_room1_light_cntrl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":-46.0,},
-        {"$GMRInstance":"v2","%Name":"inst_602F0FE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_602F0FE7","objectId":{"name":"obj_snd_wood_steps_controller","path":"objects/obj_snd_wood_steps_controller/obj_snd_wood_steps_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":94.0,"y":-20.0,},
       ],"layers":[],"name":"Yura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"floor","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_628AA78B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_628AA78B","objectId":{"name":"obj_wood_floor","path":"objects/obj_wood_floor/obj_wood_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":0.140625,"x":85.0,"y":253.0,},
