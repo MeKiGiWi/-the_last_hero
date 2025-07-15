@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.205708,
+  "duration":4.205714,
   "name":"snd_walk_ladder_loop",
   "parent":{
     "name":"падик юры",

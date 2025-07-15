@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.836531,
+  "duration":1.8365306,
   "name":"snd_walk_loop",
   "parent":{
     "name":"звуки шагов",

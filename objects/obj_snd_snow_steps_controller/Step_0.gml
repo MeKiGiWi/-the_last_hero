@@ -1,5 +1,7 @@
-if ((room == rm_street_0 || room == rm_street_1 || room == rm_street_2) 
-	&& instance_exists(obj_yura))
+/// @description sounds of steps on snow
+
+
+if (place_meeting(obj_yura.x, obj_yura.y, obj_snow_floor))
 {
 	with (obj_yura)
 	{
@@ -21,4 +23,9 @@ if ((room == rm_street_0 || room == rm_street_1 || room == rm_street_2)
 			audio_play_sound(snd_run_loop, 100, false);
 		}
 	}
+}
+else 
+{
+	audio_stop_sound(snd_walk_loop);
+	audio_stop_sound(snd_run_loop);
 }

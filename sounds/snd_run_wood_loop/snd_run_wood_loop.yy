@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.541208,
+  "duration":1.5412245,
   "name":"snd_run_wood_loop",
   "parent":{
     "name":"звуки шагов",

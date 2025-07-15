@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stairs",
+  "%Name":"obj_snow_floor",
   "eventList":[],
   "managed":true,
-  "name":"obj_stairs",
+  "name":"obj_snow_floor",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
     "path":"folders/Объекты.yy",
   },
   "parentObjectId":{
-    "name":"obj_wood_floor",
-    "path":"objects/obj_wood_floor/obj_wood_floor.yy",
+    "name":"obj_floor",
+    "path":"objects/obj_floor/obj_floor.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stairs",
-    "path":"sprites/spr_stairs/spr_stairs.yy",
+    "name":"spr_floor",
+    "path":"sprites/spr_floor/spr_floor.yy",
   },
   "spriteMaskId":null,
   "visible":false,

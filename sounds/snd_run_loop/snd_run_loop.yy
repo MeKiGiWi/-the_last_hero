@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.485578,
+  "duration":1.4855782,
   "name":"snd_run_loop",
   "parent":{
     "name":"звуки шагов",

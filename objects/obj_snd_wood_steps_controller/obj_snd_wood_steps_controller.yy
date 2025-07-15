@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stairs",
-  "eventList":[],
+  "%Name":"obj_snd_wood_steps_controller",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_stairs",
+  "name":"obj_snd_wood_steps_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
     "path":"folders/Объекты.yy",
   },
-  "parentObjectId":{
-    "name":"obj_wood_floor",
-    "path":"objects/obj_wood_floor/obj_wood_floor.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_stairs",
-    "path":"sprites/spr_stairs/spr_stairs.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }
