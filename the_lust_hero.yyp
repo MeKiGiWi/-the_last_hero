@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"the_lust_hero",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -96,6 +96,7 @@
     {"$GMFolder":"","%Name":"Шейдеры","folderPath":"folders/Шейдеры.yy","name":"Шейдеры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Шрифты","folderPath":"folders/Шрифты.yy","name":"Шрифты","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Comic Sans MS Pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Comic Sans MS Pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"DIO.gex","CopyToMask":-1,"filePath":"datafiles","name":"DIO.gex","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -104,7 +105,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"the_lust_hero",
   "resources":[
@@ -135,6 +136,7 @@
     {"id":{"name":"obj_room2_BLACK_L","path":"objects/obj_room2_BLACK_L/obj_room2_BLACK_L.yy",},},
     {"id":{"name":"obj_room2_BLACK_R","path":"objects/obj_room2_BLACK_R/obj_room2_BLACK_R.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
+    {"id":{"name":"obj_snd_street_controller","path":"objects/obj_snd_street_controller/obj_snd_street_controller.yy",},},
     {"id":{"name":"obj_snow_controller","path":"objects/obj_snow_controller/obj_snow_controller.yy",},},
     {"id":{"name":"obj_snow","path":"objects/obj_snow/obj_snow.yy",},},
     {"id":{"name":"obj_soap","path":"objects/obj_soap/obj_soap.yy",},},
@@ -146,8 +148,7 @@
     {"id":{"name":"obj_tile_floor","path":"objects/obj_tile_floor/obj_tile_floor.yy",},},
     {"id":{"name":"obj_vitya","path":"objects/obj_vitya/obj_vitya.yy",},},
     {"id":{"name":"obj_volga","path":"objects/obj_volga/obj_volga.yy",},},
-    {"id":{"name":"obj_wall_LEFT","path":"objects/obj_wall_LEFT/obj_wall_LEFT.yy",},},
-    {"id":{"name":"obj_wall_RIGHT","path":"objects/obj_wall_RIGHT/obj_wall_RIGHT.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_wood_floor","path":"objects/obj_wood_floor/obj_wood_floor.yy",},},
     {"id":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},},
     {"id":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
@@ -367,6 +368,7 @@
     {"id":{"name":"spr_znak","path":"sprites/spr_znak/spr_znak.yy",},},
     {"id":{"name":"Sprite136","path":"sprites/Sprite136/Sprite136.yy",},},
     {"id":{"name":"Sprite137","path":"sprites/Sprite137/Sprite137.yy",},},
+    {"id":{"name":"Sprite170","path":"sprites/Sprite170/Sprite170.yy",},},
     {"id":{"name":"Sprite82","path":"sprites/Sprite82/Sprite82.yy",},},
     {"id":{"name":"UPD_bckgr_room3_4","path":"sprites/UPD_bckgr_room3_4/UPD_bckgr_room3_4.yy",},},
     {"id":{"name":"viniette_1","path":"sprites/viniette_1/viniette_1.yy",},},

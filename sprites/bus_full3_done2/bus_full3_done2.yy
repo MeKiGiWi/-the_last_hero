@@ -71,7 +71,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"bus_full3_done2",
     "autoRecord":true,
     "backdropHeight":768,
@@ -102,6 +102,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":87.0,
+    "seqWidth":202.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

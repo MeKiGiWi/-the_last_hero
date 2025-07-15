@@ -36,6 +36,7 @@
     {"name":"obj_goto_entrance","order":3,"path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},
     {"name":"obj_note","order":1,"path":"objects/obj_note/obj_note.yy",},
     {"name":"obj_smoke","order":4,"path":"objects/obj_smoke/obj_smoke.yy",},
+    {"name":"obj_snd_street_controller","order":6,"path":"objects/obj_snd_street_controller/obj_snd_street_controller.yy",},
     {"name":"obj_textbox4","order":1,"path":"objects/obj_textbox4/obj_textbox4.yy",},
     {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
     {"name":"obj_wood_floor","order":1,"path":"objects/obj_wood_floor/obj_wood_floor.yy",},
@@ -139,5 +140,6 @@
     {"name":"spr_znak","order":1,"path":"sprites/spr_znak/spr_znak.yy",},
     {"name":"Sprite136","order":1,"path":"sprites/Sprite136/Sprite136.yy",},
     {"name":"Sprite137","order":2,"path":"sprites/Sprite137/Sprite137.yy",},
+    {"name":"Sprite170","order":3,"path":"sprites/Sprite170/Sprite170.yy",},
   ],
 }

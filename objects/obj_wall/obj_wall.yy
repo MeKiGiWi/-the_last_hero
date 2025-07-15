@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_RIGHT",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_wall",
+  "eventList":[],
   "managed":true,
-  "name":"obj_wall_RIGHT",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
     "path":"folders/Объекты.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_floor",
+    "path":"objects/obj_floor/obj_floor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -40,7 +40,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_yura_walk_LEFT",
     "autoRecord":true,
     "backdropHeight":768,
@@ -71,6 +71,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":62.0,
+    "seqWidth":30.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
