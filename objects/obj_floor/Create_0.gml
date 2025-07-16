@@ -1,8 +1,8 @@
-play_steps_sounds = function(target_entity, sound_of_walking, sound_of_running) 
+play_steps_sounds = function(sound_of_walking, sound_of_running) 
 {
-	if (position_meeting(target_entity.x, target_entity.y + 3, self))
+	with (obj_yura)
 	{
-		with (target_entity)
+		if (position_meeting(x, y + 3, other))
 		{
 			if (abs(_hsp) == 0 && abs(_vsp) == 0)
 			{
@@ -22,10 +22,10 @@ play_steps_sounds = function(target_entity, sound_of_walking, sound_of_running)
 				audio_play_sound(sound_of_running, 100, false);
 			}
 		}
-	}
-	else 
-	{
-		audio_stop_sound(sound_of_walking);
-		audio_stop_sound(sound_of_running);
+		else 
+		{
+			audio_stop_sound(sound_of_walking);
+			audio_stop_sound(sound_of_running);
+		}
 	}
 };
