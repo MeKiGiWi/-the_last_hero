@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_1BAA0181_1","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_272E1E87_1","path":"rooms/rm_room_2/rm_room_2.yy",},
-    {"name":"inst_72EA0B0","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_6699E013","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_5E09310D","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_6BE119B2","path":"rooms/rm_room_2/rm_room_2.yy",},
@@ -18,7 +17,6 @@
     {"name":"inst_198EA12F","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_4A881830","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_6EB9B24B","path":"rooms/rm_room_2/rm_room_2.yy",},
-    {"name":"inst_D768FB6","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_65A1CC73","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_20ACA33D","path":"rooms/rm_room_2/rm_room_2.yy",},
     {"name":"inst_23D8AECB","path":"rooms/rm_room_2/rm_room_2.yy",},
@@ -75,9 +73,7 @@
     {"$GMRBackgroundLayer":"","%Name":"left_right_light","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"left_right_light","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bckgr_night2_left","path":"sprites/bckgr_night2_left/bckgr_night2_left.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"UPD_bckgr_room3_4","path":"sprites/UPD_bckgr_room3_4/UPD_bckgr_room3_4.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"snowfall","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_72EA0B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72EA0B0","objectId":{"name":"obj_snow_controller","path":"objects/obj_snow_controller/obj_snow_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":-30.0,},
         {"$GMRInstance":"v2","%Name":"inst_6EB9B24B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EB9B24B","objectId":{"name":"obj_snow","path":"objects/obj_snow/obj_snow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-2.0,"y":-3.0,},
-        {"$GMRInstance":"v2","%Name":"inst_D768FB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D768FB6","objectId":{"name":"obj_snow_controller","path":"objects/obj_snow_controller/obj_snow_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-21.0,"y":-8.0,},
       ],"layers":[],"name":"snowfall","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"car_outside","depth":1600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_6BE119B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BE119B2","objectId":{"name":"obj_car_outside1","path":"objects/obj_car_outside1/obj_car_outside1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-127.0,"y":185.0,},
