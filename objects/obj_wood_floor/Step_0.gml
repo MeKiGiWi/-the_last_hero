@@ -1,0 +1,1 @@
+play_steps_sounds(snd_walk_wood_loop, snd_run_wood_loop);

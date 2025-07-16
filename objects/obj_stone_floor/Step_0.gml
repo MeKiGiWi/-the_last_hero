@@ -1,0 +1,1 @@
+play_steps_sounds(snd_walk_padik_loop, snd_run_padik_loop);
