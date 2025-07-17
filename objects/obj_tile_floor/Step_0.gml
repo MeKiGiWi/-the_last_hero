@@ -1,1 +1,1 @@
-play_steps_sounds(snd_walk_bathroom_loop, snd_run_bathroom_loop);
+play_steps_sounds(obj_tile_floor, snd_walk_bathroom_loop, snd_run_bathroom_loop);

@@ -1,1 +1,1 @@
-play_steps_sounds(snd_walk_padik_loop, snd_run_padik_loop);
+play_steps_sounds(obj_stone_floor, snd_walk_padik_loop, snd_run_padik_loop);
