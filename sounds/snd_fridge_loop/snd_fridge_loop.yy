@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":396.27753,
+  "duration":396.27756,
   "name":"snd_fridge_loop",
   "parent":{
     "name":"хата юры звуки",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_fridge_loop.mp3",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

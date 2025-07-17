@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.671833,
+  "duration":1.6718367,
   "name":"snd_door_wood_light",
   "parent":{
     "name":"двери",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_door_wood_light.mp3",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

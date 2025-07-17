@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.500375,
+  "duration":3.5004082,
   "name":"snd_neigh_padik3",
   "parent":{
     "name":"падик юры",
@@ -18,7 +18,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_neigh_padik3.mp3",
   "type":1,
   "volume":0.6,

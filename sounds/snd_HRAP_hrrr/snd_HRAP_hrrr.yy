@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.675917,
+  "duration":4.6759186,
   "name":"snd_HRAP_hrrr",
   "parent":{
     "name":"падик юры",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_HRAP_hrrr.mp3",
-  "type":0,
+  "type":1,
   "volume":0.35,
 }

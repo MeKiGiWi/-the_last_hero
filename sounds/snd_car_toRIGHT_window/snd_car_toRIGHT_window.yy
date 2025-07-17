@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":18.520792,
+  "duration":18.520817,
   "name":"snd_car_toRIGHT_window",
   "parent":{
     "name":"хата юры звуки",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_car_toRIGHT_window.mp3",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

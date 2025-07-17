@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.0155,
+  "duration":5.01551,
   "name":"snd_dogs2",
   "parent":{
     "name":"улицы возле дома",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_dogs2.mp3",
-  "type":2,
+  "type":1,
   "volume":0.5,
 }
