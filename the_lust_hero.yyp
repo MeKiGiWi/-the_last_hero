@@ -121,6 +121,7 @@
     {"id":{"name":"obj_diplomat","path":"objects/obj_diplomat/obj_diplomat.yy",},},
     {"id":{"name":"obj_door_btw_rooms","path":"objects/obj_door_btw_rooms/obj_door_btw_rooms.yy",},},
     {"id":{"name":"obj_door_within_room","path":"objects/obj_door_within_room/obj_door_within_room.yy",},},
+    {"id":{"name":"obj_entrance_snd_controller","path":"objects/obj_entrance_snd_controller/obj_entrance_snd_controller.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_goto_entrance","path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},},
     {"id":{"name":"obj_goto_room_NOENTER","path":"objects/obj_goto_room_NOENTER/obj_goto_room_NOENTER.yy",},},
