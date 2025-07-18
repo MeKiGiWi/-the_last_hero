@@ -34,7 +34,7 @@
     {"name":"obj_const_text_drawer","order":1,"path":"objects/obj_const_text_drawer/obj_const_text_drawer.yy",},
     {"name":"obj_dialog_3","order":2,"path":"objects/obj_dialog_3/obj_dialog_3.yy",},
     {"name":"obj_entrance_snd_controller","order":12,"path":"objects/obj_entrance_snd_controller/obj_entrance_snd_controller.yy",},
-    {"name":"obj_goto_entrance","order":3,"path":"objects/obj_goto_entrance/obj_goto_entrance.yy",},
+    {"name":"obj_goto","order":14,"path":"objects/obj_goto/obj_goto.yy",},
     {"name":"obj_note","order":1,"path":"objects/obj_note/obj_note.yy",},
     {"name":"obj_smoke","order":4,"path":"objects/obj_smoke/obj_smoke.yy",},
     {"name":"obj_snd_controller","order":10,"path":"objects/obj_snd_controller/obj_snd_controller.yy",},
