@@ -70,7 +70,7 @@ else if (!smooth)
 }
 else
 {
-    image_alpha -= sm_speed / room_speed;
+    image_alpha -= sm_speed / game_get_speed(gamespeed_fps);
     if (image_alpha <= 0)
     {
         instance_destroy(id);

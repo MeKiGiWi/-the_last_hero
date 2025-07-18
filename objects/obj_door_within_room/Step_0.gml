@@ -1,5 +1,7 @@
 /// @description change global black scr op and entering btw rooms
 // You can write your code in this editor
+
+
 if (place_meeting(x, y, obj_yura) && keyboard_check(vk_enter) && !self.to_swap_masks)
 {
 	with (RIGHT_MASK)
@@ -31,20 +33,6 @@ if (to_swap_masks)
 			other.to_tp = true;
 		}
 	}
-	//if (self.cur_dir == 1)
-	//{
-	//	with (obj_room1_BLACK_L)
-	//	{
-	//		image_alpha += other.change_speed * 1;
-	//	}
-	//}
-	//else
-	//{
-	//	with (obj_room1_BLACK_R)
-	//	{
-	//		image_alpha += other.change_speed * 1;
-	//	}
-	//}
 }
 
 if (self.to_tp)
