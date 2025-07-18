@@ -140,6 +140,7 @@
     {"id":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},},
     {"id":{"name":"obj_snow_floor","path":"objects/obj_snow_floor/obj_snow_floor.yy",},},
     {"id":{"name":"obj_snow","path":"objects/obj_snow/obj_snow.yy",},},
+    {"id":{"name":"obj_snowfall_controller","path":"objects/obj_snowfall_controller/obj_snowfall_controller.yy",},},
     {"id":{"name":"obj_soap","path":"objects/obj_soap/obj_soap.yy",},},
     {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},},
     {"id":{"name":"obj_stone_floor","path":"objects/obj_stone_floor/obj_stone_floor.yy",},},
