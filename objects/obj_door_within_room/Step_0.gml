@@ -4,22 +4,16 @@
 
 if (place_meeting(x, y, obj_yura) && keyboard_check(vk_enter) && !self.to_swap_masks)
 {
-	with (RIGHT_MASK)
+	if (RIGHT_MASK.image_alpha == 1)
 	{
-		if (self.image_alpha == 1)
-		{
-			other.cur_dir = 1;
-		}
-		else
-		{
-			other.cur_dir = -1;
-		}
-		self.image_alpha = 1;
+		self.cur_dir = 1;
 	}
-	with (LEFT_MASK)
+	else
 	{
-		self.image_alpha = 1;
+		self.cur_dir = -1;
 	}
+	RIGHT_MASK.image_alpha = 1;
+	LEFT_MASK.image_alpha = 1;
 	self.to_swap_masks = true;
 	global.animation = true;
 }
@@ -45,17 +39,11 @@ if (self.to_tp)
 	}
 	if (self.cur_dir == 1)
 	{
-		with (RIGHT_MASK)
-		{
-			image_alpha = 0;
-		}
+		RIGHT_MASK.image_alpha = 0;
 	}
 	else
 	{
-		with (LEFT_MASK)
-		{
-			image_alpha = 0;
-		}
+		LEFT_MASK.image_alpha = 0;
 	}
 	self.to_tp = false;
 	self.to_swap_masks = false;
