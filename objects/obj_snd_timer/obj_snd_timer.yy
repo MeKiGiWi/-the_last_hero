@@ -43,6 +43,7 @@
         "snd_creak_2",
         "snd_creak_3",
         "snd_neighbors_voice",
+        "snd_neigh_walk",
       ],"multiselect":true,"name":"sounds","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"rooms","filters":[],"listItems":[
         "rm_street_0",
@@ -56,6 +57,7 @@
     {"$GMObjectProperty":"v1","%Name":"min_delay","filters":[],"listItems":[],"multiselect":false,"name":"min_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_delay","filters":[],"listItems":[],"multiselect":false,"name":"max_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"persistent","filters":[],"listItems":[],"multiselect":false,"name":"persistent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"sounds_can_be_overlayed","filters":[],"listItems":[],"multiselect":false,"name":"sounds_can_be_overlayed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
