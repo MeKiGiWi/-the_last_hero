@@ -37,9 +37,5 @@ if (array_contains(self.rooms, room))
 else
 {
 	next_delay = 0;
-	var snd = get_playing_sound(self.sounds);
-	if (snd != undefined)
-	{
-		audio_stop_sound(snd);
-	}
+	stop_all_certain_sounds(self.sounds);
 }

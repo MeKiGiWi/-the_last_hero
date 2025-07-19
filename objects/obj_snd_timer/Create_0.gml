@@ -30,3 +30,13 @@ function get_playing_sound(sounds)
 	}
 	return undefined;
 };
+
+
+function stop_all_certain_sounds(sounds)
+{
+	if (array_length(sounds) == 0) return;
+	for (var i = 0; i < array_length(sounds); ++i)
+	{
+		audio_stop_sound(sounds[i]);	
+	}
+};
