@@ -1,3 +1,6 @@
+/// @description choosing door sound and transition effect when colliding with obj_yura 
+
+
 var sounds_of_doors = ds_map_create()
 ds_map_add(sounds_of_doors, "empty", undefined);
 ds_map_add(sounds_of_doors, "wood", snd_door_wood);

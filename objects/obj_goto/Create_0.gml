@@ -1,3 +1,6 @@
+/// @description door sounds, transition effects
+
+
 function play_door_sound(sound)
 {
 	if (sound != undefined)

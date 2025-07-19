@@ -1,3 +1,6 @@
+/// @description function for playing sound in certain rooms
+
+
 self.persistent = true;
 
 function play_background_sound_in_rooms(sound, rooms)

@@ -144,6 +144,7 @@
     {"id":{"name":"obj_textbox3","path":"objects/obj_textbox3/obj_textbox3.yy",},},
     {"id":{"name":"obj_textbox4","path":"objects/obj_textbox4/obj_textbox4.yy",},},
     {"id":{"name":"obj_tile_floor","path":"objects/obj_tile_floor/obj_tile_floor.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_vitya","path":"objects/obj_vitya/obj_vitya.yy",},},
     {"id":{"name":"obj_volga","path":"objects/obj_volga/obj_volga.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},

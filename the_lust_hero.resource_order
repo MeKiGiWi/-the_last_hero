@@ -42,6 +42,7 @@
     {"name":"obj_stone_floor","order":9,"path":"objects/obj_stone_floor/obj_stone_floor.yy",},
     {"name":"obj_textbox4","order":1,"path":"objects/obj_textbox4/obj_textbox4.yy",},
     {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
+    {"name":"obj_timer","order":15,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"obj_wood_floor","order":1,"path":"objects/obj_wood_floor/obj_wood_floor.yy",},
     {"name":"rm_bar","order":1,"path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"rm_mentovka_2","order":3,"path":"rooms/rm_mentovka_2/rm_mentovka_2.yy",},

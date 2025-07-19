@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.130583,
+  "duration":0.13061224,
   "name":"snd_voice_yura",
   "parent":{
     "name":"ГОЛОСА (ДИАЛОГИ)",

@@ -1,3 +1,6 @@
+/// @description function for playing steps sounds
+
+
 play_steps_sounds = function(type_of_floor, sound_of_walking, sound_of_running) 
 {
 	with (obj_yura)
