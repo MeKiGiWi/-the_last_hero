@@ -1,8 +1,10 @@
-play_sound_in_certain_rooms = function(sound, certain_rooms)
+self.persistent = true;
+
+function play_background_sound_in_rooms(sound, rooms)
 {
-	if array_contains(certain_rooms, room)
+	if array_contains(rooms, room)
 	{
-		if !audio_is_playing(sound)
+		if !audio_is_playing(sound) && sound != undefined
 		{
 			audio_play_sound(sound, 100, 0);
 		}

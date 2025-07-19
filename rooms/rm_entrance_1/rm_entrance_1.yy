@@ -16,14 +16,17 @@
     {"name":"inst_1AD6EE2D","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_54D8C47","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_47C2E6AD","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
-    {"name":"inst_33C7D7C7","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_C3411E6","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_1515959F","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
+    {"name":"inst_37AF9DA0","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"sound","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_33C7D7C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33C7D7C7","objectId":{"name":"obj_entrance_snd_controller","path":"objects/obj_entrance_snd_controller/obj_entrance_snd_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
+        {"$GMRInstance":"v2","%Name":"inst_37AF9DA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37AF9DA0","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"background_sound","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_padik_loop",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"rooms","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_entrance_1, rm_entrance_2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
       ],"layers":[],"name":"sound","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"stairs","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"stairs","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bckgr_entrance_stair","path":"sprites/bckgr_entrance_stair/bckgr_entrance_stair.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"objects","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

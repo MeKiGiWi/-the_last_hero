@@ -11,14 +11,17 @@
     {"name":"inst_933C409","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_2A24255B","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_3122FF6E","path":"rooms/rm_street_0/rm_street_0.yy",},
-    {"name":"inst_586B9A0D","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_41A01840","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_738FF5FE","path":"rooms/rm_street_0/rm_street_0.yy",},
+    {"name":"inst_934BB0","path":"rooms/rm_street_0/rm_street_0.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"sound","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_586B9A0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_586B9A0D","objectId":{"name":"obj_wind_snd_controller","path":"objects/obj_wind_snd_controller/obj_wind_snd_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
+        {"$GMRInstance":"v2","%Name":"inst_934BB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_934BB0","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"background_sound","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_wind_loop",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"rooms","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_street_0, rm_street_1, rm_street_2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
       ],"layers":[],"name":"sound","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"blacklines","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"blacklines","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_black_lines","path":"sprites/spr_black_lines/spr_black_lines.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"snowfall","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
