@@ -19,6 +19,7 @@
     {"name":"inst_C3411E6","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_1515959F","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
     {"name":"inst_37AF9DA0","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
+    {"name":"inst_4949CF54","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"rooms","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_entrance_1, rm_entrance_2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"propertyId":{"name":"persistent","path":"objects/obj_snd_controller/obj_snd_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4949CF54","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4949CF54","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"sounds","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_neigh_padik, snd_neigh_padik2, snd_neigh_padik3",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"rooms","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_entrance_1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"min_delay","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"max_delay","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"45",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-16.0,},
       ],"layers":[],"name":"sound","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"stairs","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"stairs","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bckgr_entrance_stair","path":"sprites/bckgr_entrance_stair/bckgr_entrance_stair.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"objects","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
