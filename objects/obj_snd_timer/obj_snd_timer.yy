@@ -27,10 +27,22 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"type_of_timer","filters":[],"listItems":[],"multiselect":false,"name":"type_of_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"sounds","filters":[],"listItems":[
         "snd_dogs1",
         "snd_dogs2",
+        "snd_neigh_voice_padik2",
+        "snd_creak_padik",
+        "snd_creak_padik2",
+        "snd_creak_padik3",
+        "snd_neigh_padik",
+        "snd_neigh_padik2",
+        "snd_neigh_padik3",
+        "snd_car_toLEFT_window",
+        "snd_car_toRIGHT_window",
+        "snd_creak_1",
+        "snd_creak_2",
+        "snd_creak_3",
+        "snd_neighbors_voice",
       ],"multiselect":true,"name":"sounds","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"rooms","filters":[],"listItems":[
         "rm_street_0",
