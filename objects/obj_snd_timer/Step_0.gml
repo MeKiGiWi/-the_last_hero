@@ -16,8 +16,7 @@ if (array_contains(self.rooms, room))
 			}
 			else
 			{
-				var playing_sound = get_playing_sound(self.sounds);
-				set_next_delay(self.min_delay, self.max_delay - (playing_sound != undefined ? audio_sound_get_track_position(playing_sound) : 0));
+				set_next_delay(self.min_delay, self.min_delay);
 			}
 	    }
 	}
