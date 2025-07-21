@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_car_outside2",
-  "eventList":[],
+  "%Name":"obj_abstract_car",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_car_outside2",
+  "name":"obj_abstract_car",
   "overriddenProperties":[],
   "parent":{
-    "name":"за окном в хате",
-    "path":"folders/Объекты/тачки йоу/за окном в хате.yy",
+    "name":"Объекты",
+    "path":"folders/Объекты.yy",
   },
-  "parentObjectId":{
-    "name":"obj_abstract_car",
-    "path":"objects/obj_abstract_car/obj_abstract_car.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_car2_outside_RIGHT",
-    "path":"sprites/spr_car2_outside_RIGHT/spr_car2_outside_RIGHT.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

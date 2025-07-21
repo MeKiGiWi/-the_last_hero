@@ -30,8 +30,10 @@
     {"name":"2 комната","order":2,"path":"folders/Спрайты/фоны/ментовка/2 комната.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_abstract_car","order":17,"path":"objects/obj_abstract_car/obj_abstract_car.yy",},
     {"name":"obj_ambient_snd_controller","order":10,"path":"objects/obj_ambient_snd_controller/obj_ambient_snd_controller.yy",},
     {"name":"obj_bird","order":5,"path":"objects/obj_bird/obj_bird.yy",},
+    {"name":"obj_car_outside_controller","order":16,"path":"objects/obj_car_outside_controller/obj_car_outside_controller.yy",},
     {"name":"obj_const_text_drawer","order":1,"path":"objects/obj_const_text_drawer/obj_const_text_drawer.yy",},
     {"name":"obj_dialog_3","order":2,"path":"objects/obj_dialog_3/obj_dialog_3.yy",},
     {"name":"obj_goto","order":14,"path":"objects/obj_goto/obj_goto.yy",},

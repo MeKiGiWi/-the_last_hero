@@ -9,7 +9,10 @@
     "name":"за окном в хате",
     "path":"folders/Объекты/тачки йоу/за окном в хате.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_abstract_car",
+    "path":"objects/obj_abstract_car/obj_abstract_car.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
