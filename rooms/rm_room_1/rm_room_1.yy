@@ -24,6 +24,7 @@
     {"name":"inst_571E4812","path":"rooms/rm_room_1/rm_room_1.yy",},
     {"name":"inst_63CCC783","path":"rooms/rm_room_1/rm_room_1.yy",},
     {"name":"inst_33378F48","path":"rooms/rm_room_1/rm_room_1.yy",},
+    {"name":"inst_9C557F4","path":"rooms/rm_room_1/rm_room_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,6 +37,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"max_delay","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"propertyId":{"name":"sounds_can_be_overlayed","path":"objects/obj_snd_timer/obj_snd_timer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
+        {"$GMRInstance":"v2","%Name":"inst_9C557F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9C557F4","objectId":{"name":"obj_radio_controller","path":"objects/obj_radio_controller/obj_radio_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-16.0,},
       ],"layers":[],"name":"sound","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"show_the_item","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_650292F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_650292F1","objectId":{"name":"obj_poster","path":"objects/obj_poster/obj_poster.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":384.0,},
