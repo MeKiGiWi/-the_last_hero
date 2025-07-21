@@ -12,6 +12,7 @@ if (array_contains(self.rooms, room))
 			if !(self.sounds_can_be_overlayed)
 			{
 				var flag = array_any(sounds, function(sound) { return audio_is_playing(sound); });
+				
 				if (!flag)
 				{
 					audio_play_sound(get_random_sound(self.sounds), 100, 0);
