@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_snd_controller",
+  "%Name":"obj_ambient_snd_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_snd_controller",
+  "name":"obj_ambient_snd_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",

@@ -110,6 +110,7 @@
   "name":"the_lust_hero",
   "resources":[
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
+    {"id":{"name":"obj_ambient_snd_controller","path":"objects/obj_ambient_snd_controller/obj_ambient_snd_controller.yy",},},
     {"id":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},},
     {"id":{"name":"obj_bus1","path":"objects/obj_bus1/obj_bus1.yy",},},
     {"id":{"name":"obj_cap","path":"objects/obj_cap/obj_cap.yy",},},
@@ -133,7 +134,6 @@
     {"id":{"name":"obj_room2_BLACK_L","path":"objects/obj_room2_BLACK_L/obj_room2_BLACK_L.yy",},},
     {"id":{"name":"obj_room2_BLACK_R","path":"objects/obj_room2_BLACK_R/obj_room2_BLACK_R.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
-    {"id":{"name":"obj_snd_controller","path":"objects/obj_snd_controller/obj_snd_controller.yy",},},
     {"id":{"name":"obj_snd_timer","path":"objects/obj_snd_timer/obj_snd_timer.yy",},},
     {"id":{"name":"obj_snow_floor","path":"objects/obj_snow_floor/obj_snow_floor.yy",},},
     {"id":{"name":"obj_snow","path":"objects/obj_snow/obj_snow.yy",},},
