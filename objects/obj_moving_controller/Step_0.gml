@@ -1,3 +1,6 @@
+/// @description controller for creating new moving objects in cutscene
+
+
 if (global.is_cutscene)
 {
 	if (next_delay > 0) 

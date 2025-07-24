@@ -1,3 +1,5 @@
+/// @description just moving to left object
+
 if (self.sprite != undefined)
 {
 	sprite_index = self.sprite;

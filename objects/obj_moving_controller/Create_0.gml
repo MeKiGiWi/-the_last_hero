@@ -1,3 +1,6 @@
+/// @description basic timer functions for random events
+
+
 next_delay = 0;
 
 

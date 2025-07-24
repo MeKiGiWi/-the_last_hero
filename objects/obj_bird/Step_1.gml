@@ -1,3 +1,6 @@
+/// @description rule of move birds in cutscene
+
+
 if (image_xscale == 1)
 {
 	x += fly_speed;	

@@ -1,3 +1,6 @@
+/// @description moving background in loop
+
+
 --x;
 if (!created_next && x <= -(sprite_get_width(self.sprite_index) - room_width))
 {

@@ -1,3 +1,6 @@
+/// @description creating random amount of birds in random positions based on local vars
+
+
 if (global.is_cutscene)
 {
 	if (next_delay > 0) 

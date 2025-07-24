@@ -1,4 +1,4 @@
-/// @description init values for cutscene
+/// @description main controller of cutscene
 
 
 // disable yura's visibility
