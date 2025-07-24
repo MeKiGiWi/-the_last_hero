@@ -1,0 +1,1 @@
+fly_speed = 1 + irandom(2);

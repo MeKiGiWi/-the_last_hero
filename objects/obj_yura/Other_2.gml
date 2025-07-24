@@ -8,6 +8,7 @@ global.black_scr_opacity = 0;
 global.to_black_scr = false;
 global.gate_num = 0;
 global.animation = false;
+global.is_cutscene = false;
 
 window_set_caption("The last hero");
 window_set_size(display_get_width(), display_get_height());

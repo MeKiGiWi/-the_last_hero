@@ -15,6 +15,7 @@
     {"name":"inst_738FF5FE","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_934BB0","path":"rooms/rm_street_0/rm_street_0.yy",},
     {"name":"inst_33FEE3B9","path":"rooms/rm_street_0/rm_street_0.yy",},
+    {"name":"inst_43DC4ED5","path":"rooms/rm_street_0/rm_street_0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,15 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"transition_effect","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"blackscreen",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"auto_transition","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"yes",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.078125,"scaleY":2.125,"x":635.0,"y":117.0,},
+        {"$GMRInstance":"v2","%Name":"inst_43DC4ED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43DC4ED5","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"room_to_go","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_welcome",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"roomx","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"74",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"roomy","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"260",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"start_sprite","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_yura_stat_RIGHT",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"type_of_door","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"empty",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"transition_effect","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"blackscreen",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_goto","path":"objects/obj_goto/obj_goto.yy",},"propertyId":{"name":"auto_transition","path":"objects/obj_goto/obj_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"yes",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.078125,"scaleY":2.125,"x":0.0,"y":117.0,},
       ],"layers":[],"name":"objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_street0_1","path":"sprites/spr_street0_1/spr_street0_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

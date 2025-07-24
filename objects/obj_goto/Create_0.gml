@@ -61,6 +61,7 @@ function blackscreen_transition_effect(is_auto, sound)
             global.to_black_scr = false;
             with (obj_yura)
             {
+				image_alpha = 0;
                 x = other.roomx;
                 y = other.roomy;
                 if (other.start_sprite != undefined)
@@ -68,6 +69,7 @@ function blackscreen_transition_effect(is_auto, sound)
                     sprite_index = other.start_sprite;
                 }
             }
+			obj_yura.image_alpha = 1;
         }
     }
 };

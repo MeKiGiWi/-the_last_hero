@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bird",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bus_vingette",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bird",
+  "name":"obj_bus_vingette",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"support_objects",
+    "path":"folders/Объекты/Вводная катсцена/support_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bird",
-    "path":"sprites/spr_bird/spr_bird.yy",
+    "name":"spr_bus_vongette",
+    "path":"sprites/spr_bus_vongette/spr_bus_vongette.yy",
   },
   "spriteMaskId":null,
   "visible":true,
