@@ -30,7 +30,7 @@ if (!global.is_cutscene)
 	}
 
 	move_and_collide(_hsp, _vsp, obj_floor);
-	if (place_meeting(x - 5, y, obj_wall) || place_meeting(x + 5, y, obj_wall))
+	if (place_meeting(x - 1, y, obj_wall) || place_meeting(x + 1, y, obj_wall))
 	{
 		_hsp = 0;
 		_vsp = 0;
@@ -60,4 +60,10 @@ if (!global.is_cutscene)
 	{
 		sprite_index = spr_yura_stat_RIGHT;
 	}
+}
+else
+{
+	_hsp = 0;
+	_vsp = 0;
+	is_running = 0;
 }

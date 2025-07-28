@@ -5,7 +5,7 @@ function play_steps_sounds(type_of_floor, sound_of_walking, sound_of_running, cr
 {
 	with (obj_yura)
 	{
-		if (collision_rectangle(x-3, y-3, x+3, y+3, type_of_floor, 0, 0))
+		if (collision_rectangle(x - 3, y - 3, x + 3, y + 3, type_of_floor, 0, 0))
 		{
 			if (abs(_hsp) == 0 && abs(_vsp) == 0)
 			{
