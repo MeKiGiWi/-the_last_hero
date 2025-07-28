@@ -26,6 +26,7 @@ if (!global.is_cutscene)
 	{
 		_hsp = 0;
 		_vsp = 0;
+		is_running = 0;
 	}
 
 	move_and_collide(_hsp, _vsp, obj_floor);
