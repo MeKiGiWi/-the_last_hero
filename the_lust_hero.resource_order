@@ -49,6 +49,7 @@
     {"name":"obj_snd_timer","order":15,"path":"objects/obj_snd_timer/obj_snd_timer.yy",},
     {"name":"obj_snow_floor","order":8,"path":"objects/obj_snow_floor/obj_snow_floor.yy",},
     {"name":"obj_snowfall_controller","order":13,"path":"objects/obj_snowfall_controller/obj_snowfall_controller.yy",},
+    {"name":"obj_sound_gain_master","order":25,"path":"objects/obj_sound_gain_master/obj_sound_gain_master.yy",},
     {"name":"obj_stone_floor","order":9,"path":"objects/obj_stone_floor/obj_stone_floor.yy",},
     {"name":"obj_textbox4","order":1,"path":"objects/obj_textbox4/obj_textbox4.yy",},
     {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
