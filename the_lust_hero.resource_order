@@ -152,8 +152,5 @@
     {"name":"spr_wood_2","order":1,"path":"sprites/spr_wood_2/spr_wood_2.yy",},
     {"name":"spr_wood_3","order":2,"path":"sprites/spr_wood_3/spr_wood_3.yy",},
     {"name":"spr_znak","order":1,"path":"sprites/spr_znak/spr_znak.yy",},
-    {"name":"Sprite136","order":1,"path":"sprites/Sprite136/Sprite136.yy",},
-    {"name":"Sprite137","order":2,"path":"sprites/Sprite137/Sprite137.yy",},
-    {"name":"Sprite170","order":3,"path":"sprites/Sprite170/Sprite170.yy",},
   ],
 }
