@@ -9,7 +9,7 @@ if (array_contains(self.rooms, room))
 		next_delay -= 1;
 		if (next_delay <= 0) 
 		{
-			if !(self.sounds_can_be_overlayed)
+			if (!self.sounds_can_be_overlayed)
 			{
 				var flag = array_any(sounds, function(sound) { return audio_is_playing(sound); });
 				
@@ -25,7 +25,13 @@ if (array_contains(self.rooms, room))
 			}
 			else
 			{
-				audio_play_sound(get_random_sound(self.sounds), 100, 0);
+				var index = -1;
+				do {
+				  index = irandom(array_length(self.sounds) - 1);
+				} until (self.sounds[index] != get_playing_sound(self.sounds));
+				var random_sound = self.sounds[index];
+				
+				audio_play_sound(random_sound, 100, 0);
 				set_next_delay(self.min_delay, self.max_delay);
 			}
 		}
