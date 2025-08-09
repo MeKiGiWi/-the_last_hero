@@ -11,10 +11,10 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Временные шкалы","folderPath":"folders/Звуки/sounds/Временные шкалы.yy","name":"Временные шкалы","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Звуки","folderPath":"folders/Звуки.yy","name":"Звуки","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"music","folderPath":"folders/Звуки/music.yy","name":"music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sounds","folderPath":"folders/Звуки/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Временные шкалы","folderPath":"folders/Звуки/sounds/Временные шкалы.yy","name":"Временные шкалы","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ГОЛОСА (ДИАЛОГИ)","folderPath":"folders/Звуки/sounds/ГОЛОСА (ДИАЛОГИ).yy","name":"ГОЛОСА (ДИАЛОГИ)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"двери","folderPath":"folders/Звуки/sounds/двери.yy","name":"двери","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"звуки шагов","folderPath":"folders/Звуки/sounds/звуки шагов.yy","name":"звуки шагов","resourceType":"GMFolder","resourceVersion":"2.0",},

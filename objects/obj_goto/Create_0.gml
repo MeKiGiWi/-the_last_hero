@@ -20,7 +20,7 @@ function play_door_sound(sound)
 
 to_swap_masks = false;
 cur_dir = 1;
-change_speed = 0.03;
+change_speed = 0.02;
 to_tp = false;
 
 
