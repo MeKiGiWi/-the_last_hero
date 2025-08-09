@@ -71,6 +71,7 @@
     {"name":"snd_door_wood_light","order":2,"path":"sounds/snd_door_wood_light/snd_door_wood_light.yy",},
     {"name":"snd_door_wood","order":1,"path":"sounds/snd_door_wood/snd_door_wood.yy",},
     {"name":"snd_fridge_loop","order":2,"path":"sounds/snd_fridge_loop/snd_fridge_loop.yy",},
+    {"name":"snd_HRAP_hrrr","order":13,"path":"sounds/snd_HRAP_hrrr/snd_HRAP_hrrr.yy",},
     {"name":"snd_neigh_padik","order":6,"path":"sounds/snd_neigh_padik/snd_neigh_padik.yy",},
     {"name":"snd_neigh_padik2","order":7,"path":"sounds/snd_neigh_padik2/snd_neigh_padik2.yy",},
     {"name":"snd_neigh_padik3","order":8,"path":"sounds/snd_neigh_padik3/snd_neigh_padik3.yy",},
