@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_door_iron.mp3",
   "type":1,
-  "volume":0.45,
+  "volume":0.2,
 }

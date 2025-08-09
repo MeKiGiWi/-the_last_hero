@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_creak_1.mp3",
   "type":1,
-  "volume":0.65,
+  "volume":0.3,
 }

@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_radio_home1.mp3",
   "type":1,
-  "volume":1.0,
+  "volume":0.55,
 }

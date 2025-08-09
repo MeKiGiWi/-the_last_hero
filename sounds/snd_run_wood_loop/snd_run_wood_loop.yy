@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_run_wood_loop.mp3",
   "type":1,
-  "volume":0.25,
+  "volume":0.18,
 }

@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_walk_loop.wav",
   "type":1,
-  "volume":0.3,
+  "volume":0.2,
 }

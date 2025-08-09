@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_neigh_padik2.mp3",
   "type":1,
-  "volume":0.6,
+  "volume":0.35,
 }

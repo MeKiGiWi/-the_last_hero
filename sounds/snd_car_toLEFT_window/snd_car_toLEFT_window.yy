@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_car_toLEFT_window.mp3",
   "type":1,
-  "volume":1.0,
+  "volume":0.6,
 }

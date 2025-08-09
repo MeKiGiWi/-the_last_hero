@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
+  "sampleRate":44100,
   "soundFile":"snd_door_wood_light.mp3",
-  "type":1,
-  "volume":1.0,
+  "type":0,
+  "volume":0.2,
 }
