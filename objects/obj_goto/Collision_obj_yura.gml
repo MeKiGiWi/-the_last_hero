@@ -14,5 +14,5 @@ ds_map_add(effects_of_transition, "fade", fade_transition_effect);
 var transition_func = effects_of_transition[? self.transition_effect];
 if (!is_undefined(transition_func)) 
 {
-	transition_func(self.auto_transition == "yes", sounds_of_doors[? self.type_of_door]);
+	transition_func(self.auto_transition == "yes", sounds_of_doors[? self.type_of_door], self.type_of_door == "empty" ? 1 : 0);
 }

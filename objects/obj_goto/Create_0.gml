@@ -24,7 +24,7 @@ change_speed = 0.02;
 to_tp = false;
 
 
-function blackscreen_transition_effect(is_auto, sound)
+function blackscreen_transition_effect(is_auto, sound, is_empty_door)
 {
     var should_activate = false;
     
@@ -53,7 +53,7 @@ function blackscreen_transition_effect(is_auto, sound)
     
     if (global.to_black_scr && global.gate_num == self.id)
     {
-        global.black_scr_opacity += 0.04;
+        global.black_scr_opacity += is_empty_door ? 0.04 : 0.025;
         if (global.black_scr_opacity >= 1)
         {
             room_goto(self.room_to_go);
@@ -75,7 +75,7 @@ function blackscreen_transition_effect(is_auto, sound)
 };
 
 
-function fade_transition_effect(is_auto, sound)
+function fade_transition_effect(is_auto, sound, is_empty_door)
 {
     var should_activate = false;
     
