@@ -200,6 +200,7 @@
     {"name":"spr_mentovka_light2_2","order":6,"path":"sprites/spr_mentovka_light2_2/spr_mentovka_light2_2.yy",},
     {"name":"spr_mentovka_light2","order":5,"path":"sprites/spr_mentovka_light2/spr_mentovka_light2.yy",},
     {"name":"spr_NAMEGAME","order":3,"path":"sprites/spr_NAMEGAME/spr_NAMEGAME.yy",},
+    {"name":"spr_NAMEGAME2","order":5,"path":"sprites/spr_NAMEGAME2/spr_NAMEGAME2.yy",},
     {"name":"spr_note","order":1,"path":"sprites/spr_note/spr_note.yy",},
     {"name":"spr_pvp_butt_ITEMS","order":1,"path":"sprites/spr_pvp_butt_ITEMS/spr_pvp_butt_ITEMS.yy",},
     {"name":"spr_pvp_butt_RUN","order":3,"path":"sprites/spr_pvp_butt_RUN/spr_pvp_butt_RUN.yy",},

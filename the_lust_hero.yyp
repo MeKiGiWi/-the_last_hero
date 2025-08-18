@@ -396,6 +396,7 @@
     {"id":{"name":"spr_mentovka_light2_2","path":"sprites/spr_mentovka_light2_2/spr_mentovka_light2_2.yy",},},
     {"id":{"name":"spr_mentovka_light2","path":"sprites/spr_mentovka_light2/spr_mentovka_light2.yy",},},
     {"id":{"name":"spr_NAMEGAME","path":"sprites/spr_NAMEGAME/spr_NAMEGAME.yy",},},
+    {"id":{"name":"spr_NAMEGAME2","path":"sprites/spr_NAMEGAME2/spr_NAMEGAME2.yy",},},
     {"id":{"name":"spr_newspaper","path":"sprites/spr_newspaper/spr_newspaper.yy",},},
     {"id":{"name":"spr_next_room_light1_1","path":"sprites/spr_next_room_light1_1/spr_next_room_light1_1.yy",},},
     {"id":{"name":"spr_next_room_light1_2","path":"sprites/spr_next_room_light1_2/spr_next_room_light1_2.yy",},},
