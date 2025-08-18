@@ -208,6 +208,7 @@
     {"name":"spr_flashlight_ON","order":1,"path":"sprites/spr_flashlight_ON/spr_flashlight_ON.yy",},
     {"name":"spr_hpBAR_white_HPHPHP","order":1,"path":"sprites/spr_hpBAR_white_HPHPHP/spr_hpBAR_white_HPHPHP.yy",},
     {"name":"spr_intro_black","order":2,"path":"sprites/spr_intro_black/spr_intro_black.yy",},
+    {"name":"spr_intro_name","order":6,"path":"sprites/spr_intro_name/spr_intro_name.yy",},
     {"name":"spr_light_bus_1","order":1,"path":"sprites/spr_light_bus_1/spr_light_bus_1.yy",},
     {"name":"spr_mentovka_light1_2","order":4,"path":"sprites/spr_mentovka_light1_2/spr_mentovka_light1_2.yy",},
     {"name":"spr_mentovka_light1","order":3,"path":"sprites/spr_mentovka_light1/spr_mentovka_light1.yy",},

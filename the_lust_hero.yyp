@@ -404,6 +404,7 @@
     {"id":{"name":"spr_hpBAR_black","path":"sprites/spr_hpBAR_black/spr_hpBAR_black.yy",},},
     {"id":{"name":"spr_hpBAR_white_HPHPHP","path":"sprites/spr_hpBAR_white_HPHPHP/spr_hpBAR_white_HPHPHP.yy",},},
     {"id":{"name":"spr_intro_black","path":"sprites/spr_intro_black/spr_intro_black.yy",},},
+    {"id":{"name":"spr_intro_name","path":"sprites/spr_intro_name/spr_intro_name.yy",},},
     {"id":{"name":"spr_light_blue","path":"sprites/spr_light_blue/spr_light_blue.yy",},},
     {"id":{"name":"spr_light_bus_1","path":"sprites/spr_light_bus_1/spr_light_bus_1.yy",},},
     {"id":{"name":"spr_light_streetlump","path":"sprites/spr_light_streetlump/spr_light_streetlump.yy",},},
