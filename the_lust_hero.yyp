@@ -412,6 +412,7 @@
     {"id":{"name":"spr_mentovka_light1","path":"sprites/spr_mentovka_light1/spr_mentovka_light1.yy",},},
     {"id":{"name":"spr_mentovka_light2_2","path":"sprites/spr_mentovka_light2_2/spr_mentovka_light2_2.yy",},},
     {"id":{"name":"spr_mentovka_light2","path":"sprites/spr_mentovka_light2/spr_mentovka_light2.yy",},},
+    {"id":{"name":"spr_menu_0","path":"sprites/spr_menu_0/spr_menu_0.yy",},},
     {"id":{"name":"spr_menu_exit","path":"sprites/spr_menu_exit/spr_menu_exit.yy",},},
     {"id":{"name":"spr_menu_fog","path":"sprites/spr_menu_fog/spr_menu_fog.yy",},},
     {"id":{"name":"spr_menu_options","path":"sprites/spr_menu_options/spr_menu_options.yy",},},

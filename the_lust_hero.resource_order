@@ -214,6 +214,7 @@
     {"name":"spr_mentovka_light1","order":3,"path":"sprites/spr_mentovka_light1/spr_mentovka_light1.yy",},
     {"name":"spr_mentovka_light2_2","order":6,"path":"sprites/spr_mentovka_light2_2/spr_mentovka_light2_2.yy",},
     {"name":"spr_mentovka_light2","order":5,"path":"sprites/spr_mentovka_light2/spr_mentovka_light2.yy",},
+    {"name":"spr_menu_0","order":3,"path":"sprites/spr_menu_0/spr_menu_0.yy",},
     {"name":"spr_menu_fog","order":2,"path":"sprites/spr_menu_fog/spr_menu_fog.yy",},
     {"name":"spr_menu_options","order":2,"path":"sprites/spr_menu_options/spr_menu_options.yy",},
     {"name":"spr_menu_snow","order":2,"path":"sprites/spr_menu_snow/spr_menu_snow.yy",},
