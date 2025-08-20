@@ -506,7 +506,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_street_0","path":"rooms/rm_street_0/rm_street_0.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
     {"roomId":{"name":"rm_room_1_OLD","path":"rooms/rm_room_1_OLD/rm_room_1_OLD.yy",},},
@@ -524,6 +523,7 @@
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"roomId":{"name":"rm_welcome","path":"rooms/rm_welcome/rm_welcome.yy",},},
     {"roomId":{"name":"rm_welcome2","path":"rooms/rm_welcome2/rm_welcome2.yy",},},
+    {"roomId":{"name":"rm_street_0","path":"rooms/rm_street_0/rm_street_0.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
