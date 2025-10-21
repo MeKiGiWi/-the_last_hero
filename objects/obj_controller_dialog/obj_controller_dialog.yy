@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialog_3",
+  "%Name":"obj_controller_dialog",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialog_3",
+  "name":"obj_controller_dialog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Текст",
-    "path":"folders/Объекты/Текст.yy",
+    "name":"нейронка помогает (тестовый диалог)",
+    "path":"folders/Объекты/Текст/нейронка помогает (тестовый диалог).yy",
   },
   "parentObjectId":null,
   "persistent":false,

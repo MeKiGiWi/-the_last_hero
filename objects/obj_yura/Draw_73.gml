@@ -1,5 +1,4 @@
-/// @description smooth balck screen for entering
-// You can write your code in this editor
+
 if (!global.to_black_scr)
 {
 	if (global.black_scr_opacity > 0)

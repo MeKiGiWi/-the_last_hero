@@ -9,7 +9,7 @@ current_line = "";
 char_index = 0;
 
 // Скорость печати (в кадрах на символ)
-print_speed = 4;
+print_speed = 2;
 print_speed_up = 0;
 print_counter = 0;
 count_newlines = 0;

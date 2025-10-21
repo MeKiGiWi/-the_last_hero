@@ -1,6 +1,5 @@
 /// @description door sounds, transition effects
 
-
 function play_door_sound(sound)
 {
 	if (sound != undefined)
@@ -60,6 +59,7 @@ function blackscreen_transition_effect(is_auto, sound, is_empty_door)
             global.room = self.room_to_go;
             global.to_black_scr = false;
             with (obj_yura)
+			
             {
 				image_alpha = 0;
                 x = other.roomx;

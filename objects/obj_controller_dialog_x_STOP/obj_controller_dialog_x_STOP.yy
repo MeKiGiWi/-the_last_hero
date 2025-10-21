@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_textbox4",
-  "eventList":[],
+  "%Name":"obj_controller_dialog_x_STOP",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_textbox4",
+  "name":"obj_controller_dialog_x_STOP",
   "overriddenProperties":[],
   "parent":{
-    "name":"Текст",
-    "path":"folders/Объекты/Текст.yy",
+    "name":"support_objects",
+    "path":"folders/Объекты/Текст/support_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_dialogbox_Y",
-    "path":"sprites/spr_dialogbox_Y/spr_dialogbox_Y.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

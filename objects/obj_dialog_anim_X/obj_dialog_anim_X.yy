@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pause_1",
+  "%Name":"obj_dialog_anim_X",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pause_1",
+  "name":"obj_dialog_anim_X",
   "overriddenProperties":[],
   "parent":{
-    "name":"pause",
-    "path":"folders/Объекты/menu/pause.yy",
+    "name":"нейронка помогает (тестовый диалог)",
+    "path":"folders/Объекты/Текст/нейронка помогает (тестовый диалог).yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_vhs_1",
-    "path":"sprites/spr_vhs_1/spr_vhs_1.yy",
+    "name":"x_spr_dialog_anim",
+    "path":"sprites/x_spr_dialog_anim/x_spr_dialog_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,
