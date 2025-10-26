@@ -234,8 +234,6 @@
     {"id":{"name":"obj_welcome_cutscene_controller","path":"objects/obj_welcome_cutscene_controller/obj_welcome_cutscene_controller.yy",},},
     {"id":{"name":"obj_wood_floor","path":"objects/obj_wood_floor/obj_wood_floor.yy",},},
     {"id":{"name":"obj_yura","path":"objects/obj_yura/obj_yura.yy",},},
-    {"id":{"name":"spr_flashlight_off","path":"objects/spr_flashlight_off/spr_flashlight_off.yy",},},
-    {"id":{"name":"spr_flashlight_on","path":"objects/spr_flashlight_on/spr_flashlight_on.yy",},},
     {"id":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"id":{"name":"rm_bar","path":"rooms/rm_bar/rm_bar.yy",},},
     {"id":{"name":"rm_entrance_1","path":"rooms/rm_entrance_1/rm_entrance_1.yy",},},
