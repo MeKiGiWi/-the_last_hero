@@ -118,7 +118,6 @@
     {"name":"obj_tile_floor","order":2,"path":"objects/obj_tile_floor/obj_tile_floor.yy",},
     {"name":"obj_vingette_pause","order":2,"path":"objects/obj_vingette_pause/obj_vingette_pause.yy",},
     {"name":"obj_wood_floor","order":1,"path":"objects/obj_wood_floor/obj_wood_floor.yy",},
-    {"name":"spr_flashlight_on","order":1,"path":"objects/spr_flashlight_on/spr_flashlight_on.yy",},
     {"name":"MENU","order":3,"path":"rooms/MENU/MENU.yy",},
     {"name":"rm_bar","order":1,"path":"rooms/rm_bar/rm_bar.yy",},
     {"name":"rm_inside_the_bus","order":2,"path":"rooms/rm_inside_the_bus/rm_inside_the_bus.yy",},
@@ -224,7 +223,6 @@
     {"name":"spr_dom_4","order":4,"path":"sprites/spr_dom_4/spr_dom_4.yy",},
     {"name":"spr_dom_5","order":5,"path":"sprites/spr_dom_5/spr_dom_5.yy",},
     {"name":"spr_eye","order":2,"path":"sprites/spr_eye/spr_eye.yy",},
-    {"name":"spr_flashlight_ON","order":1,"path":"sprites/spr_flashlight_ON/spr_flashlight_ON.yy",},
     {"name":"spr_hpBAR_white_HPHPHP","order":1,"path":"sprites/spr_hpBAR_white_HPHPHP/spr_hpBAR_white_HPHPHP.yy",},
     {"name":"spr_intro_black","order":2,"path":"sprites/spr_intro_black/spr_intro_black.yy",},
     {"name":"spr_intro_name","order":6,"path":"sprites/spr_intro_name/spr_intro_name.yy",},
@@ -288,7 +286,5 @@
     {"name":"spr_wood_2","order":1,"path":"sprites/spr_wood_2/spr_wood_2.yy",},
     {"name":"spr_wood_3","order":2,"path":"sprites/spr_wood_3/spr_wood_3.yy",},
     {"name":"spr_znak","order":1,"path":"sprites/spr_znak/spr_znak.yy",},
-    {"name":"Sprite253","order":1,"path":"sprites/Sprite253/Sprite253.yy",},
-    {"name":"Sprite254","order":2,"path":"sprites/Sprite254/Sprite254.yy",},
   ],
 }
