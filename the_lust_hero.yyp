@@ -138,6 +138,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Comic Sans MS Pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Comic Sans MS Pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"chapter1_dialogs.json","CopyToMask":-1,"filePath":"datafiles/dialog_files","name":"chapter1_dialogs.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"DIO.gex","CopyToMask":-1,"filePath":"datafiles","name":"DIO.gex","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"DIO.gmk","CopyToMask":-1,"filePath":"datafiles","name":"DIO.gmk","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -252,9 +253,7 @@
     {"id":{"name":"scr_dialogue_actions_struct","path":"scripts/scr_dialogue_actions_struct/scr_dialogue_actions_struct.yy",},},
     {"id":{"name":"scr_dialogue_managing","path":"scripts/scr_dialogue_managing/scr_dialogue_managing.yy",},},
     {"id":{"name":"scr_dialogue_phrase_struct","path":"scripts/scr_dialogue_phrase_struct/scr_dialogue_phrase_struct.yy",},},
-    {"id":{"name":"scr_draw_text","path":"scripts/scr_draw_text/scr_draw_text.yy",},},
-    {"id":{"name":"scr_split_text","path":"scripts/scr_split_text/scr_split_text.yy",},},
-    {"id":{"name":"scr_string_wrap","path":"scripts/scr_string_wrap/scr_string_wrap.yy",},},
+    {"id":{"name":"scr_parse_json","path":"scripts/scr_parse_json/scr_parse_json.yy",},},
     {"id":{"name":"snd_car_toLEFT_window","path":"sounds/snd_car_toLEFT_window/snd_car_toLEFT_window.yy",},},
     {"id":{"name":"snd_car_toRIGHT_window","path":"sounds/snd_car_toRIGHT_window/snd_car_toRIGHT_window.yy",},},
     {"id":{"name":"snd_creak_1","path":"sounds/snd_creak_1/snd_creak_1.yy",},},

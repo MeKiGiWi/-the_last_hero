@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_string_wrap",
+  "%Name":"scr_parse_json",
   "isCompatibility":false,
-  "isDnD":true,
-  "name":"scr_string_wrap",
+  "isDnD":false,
+  "name":"scr_parse_json",
   "parent":{
     "name":"Скрипты",
     "path":"folders/Скрипты.yy",
