@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_dialogue_phrase",
+  "%Name":"scr_dialogue_actions_struct",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_dialogue_phrase",
+  "name":"scr_dialogue_actions_struct",
   "parent":{
     "name":"dialog_scripts",
     "path":"folders/Скрипты/dialog_scripts.yy",

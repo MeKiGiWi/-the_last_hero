@@ -6,7 +6,8 @@ function DialoguePhrase(_speaker_id, _text, _width) constructor {
     speaker_id = _speaker_id;
     text = _text;
     window_width = _width;
-    
+   
+    /// @type {Array<Struct.DialogueAction>} 
     actions = []; // Массив действий после этой реплики
     delay_after = 0; // Задержка перед следующей репликой
     

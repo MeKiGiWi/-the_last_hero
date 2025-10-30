@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_dialogue_database",
+  "%Name":"scr_dialogue_managing",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_dialogue_database",
+  "name":"scr_dialogue_managing",
   "parent":{
     "name":"dialog_scripts",
     "path":"folders/Скрипты/dialog_scripts.yy",

@@ -1,0 +1,1 @@
+init_dialogue_system();
