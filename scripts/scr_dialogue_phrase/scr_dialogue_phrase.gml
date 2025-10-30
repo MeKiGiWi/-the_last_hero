@@ -2,12 +2,11 @@
 /// @param {String} _speaker_id Строковый ID говорящего
 /// @param {String} _text Текст реплики
 /// @param {Real} _width Ширина окна (0 = использовать дефолтную)
-function DialogueLine(_speaker_id, _text, _width) constructor {
+function DialoguePhrase(_speaker_id, _text, _width) constructor {
     speaker_id = _speaker_id;
     text = _text;
-    window_width = (_width == 0) ? global.dialogue_width_default : _width;
+    window_width = _width;
     
-    // Дополнительные параметры (опционально)
     actions = []; // Массив действий после этой реплики
     delay_after = 0; // Задержка перед следующей репликой
     

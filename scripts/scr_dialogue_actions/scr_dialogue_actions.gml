@@ -6,6 +6,7 @@ function DialogueAction() constructor {
 }
 
 /// @description Установка глобального флага
+/// @param {String} _flag_name 
 function SetFlagAction(_flag_name, _value) : DialogueAction() constructor {
     flag_name = _flag_name;
     value = _value;
@@ -18,18 +19,7 @@ function SetFlagAction(_flag_name, _value) : DialogueAction() constructor {
 /// @description Воспроизведение звука
 function PlaySoundAction(_sound_asset) : DialogueAction() constructor {
     sound = _sound_asset;
-    
     static execute = function() {
         audio_play_sound(sound, 10, false);
     }
 }
-
-/// @description Запуск другого диалога
-function StartDialogueAction(_dialogue_id) : DialogueAction() constructor {
-    dialogue_id = _dialogue_id;
-    
-    static execute = function() {
-        dialogue_start(dialogue_id);
-    }
-}
- 
