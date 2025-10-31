@@ -252,6 +252,7 @@
     {"id":{"name":"rm_street_2","path":"rooms/rm_street_2/rm_street_2.yy",},},
     {"id":{"name":"rm_welcome","path":"rooms/rm_welcome/rm_welcome.yy",},},
     {"id":{"name":"rm_welcome2","path":"rooms/rm_welcome2/rm_welcome2.yy",},},
+    {"id":{"name":"scr_dialog_box_positions","path":"scripts/scr_dialog_box_positions/scr_dialog_box_positions.yy",},},
     {"id":{"name":"scr_dialogue_actions_struct","path":"scripts/scr_dialogue_actions_struct/scr_dialogue_actions_struct.yy",},},
     {"id":{"name":"scr_dialogue_managing","path":"scripts/scr_dialogue_managing/scr_dialogue_managing.yy",},},
     {"id":{"name":"scr_dialogue_phrase_struct","path":"scripts/scr_dialogue_phrase_struct/scr_dialogue_phrase_struct.yy",},},
