@@ -21,4 +21,5 @@ function parse_json_file_by_path(file_path) {
     } else {
         show_debug_message("ERROR: JSON file is empty - " + file_path);
     }
+    return result;
 }

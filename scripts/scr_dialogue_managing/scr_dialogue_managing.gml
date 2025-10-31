@@ -11,10 +11,11 @@ function init_dialogue_system() {
 
 /// @description Получить диалог по ID
 /// @param {String} _dialogue_id ID диалога
+/// @param {Struct} _dialogue_struct Распаршенный JSON диалога
 /// @return {Array<Struct.DialoguePhrase>}
-function get_dialogue_phrases(_dialogue_id) {
-    if (variable_struct_exists(global.dialogues, _dialogue_id)) {
-        return global.dialogues[$ _dialogue_id];
+function get_dialogue_phrases_array(_dialogue_id, _dialogue_struct) {
+    if (variable_struct_exists(_dialogue_struct, _dialogue_id)) {
+        return struct_get(_dialogue_struct, _dialogue_id);
     }
     show_debug_message("Error: Dialogue '" + _dialogue_id + "' not found!");
     return [];

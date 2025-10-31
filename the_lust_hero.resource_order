@@ -208,6 +208,7 @@
     {"name":"spr_butt_3","order":2,"path":"sprites/spr_butt_3/spr_butt_3.yy",},
     {"name":"spr_chapter1","order":4,"path":"sprites/spr_chapter1/spr_chapter1.yy",},
     {"name":"spr_choice_players","order":4,"path":"sprites/spr_choice_players/spr_choice_players.yy",},
+    {"name":"spr_dialog_anim_x","order":1,"path":"sprites/spr_dialog_anim_x/spr_dialog_anim_x.yy",},
     {"name":"spr_dom_1","order":1,"path":"sprites/spr_dom_1/spr_dom_1.yy",},
     {"name":"spr_dom_2","order":2,"path":"sprites/spr_dom_2/spr_dom_2.yy",},
     {"name":"spr_dom_3","order":3,"path":"sprites/spr_dom_3/spr_dom_3.yy",},
