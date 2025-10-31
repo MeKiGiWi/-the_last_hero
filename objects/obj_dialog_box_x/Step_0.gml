@@ -9,3 +9,9 @@ if (self.current_phrase.window_width != 0) {
 } else {
     self.image_xscale = 1;
 }
+
+if (_current_text_length < string_length(self.current_phrase.text)) {
+    _current_text_length += global.dialogue_typewriter_speed;
+} else {
+    _current_text_length = string_length(self.current_phrase.text);
+}
