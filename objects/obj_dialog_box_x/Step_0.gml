@@ -4,8 +4,11 @@ if (floor(self.image_index) == sprite_get_number(self.sprite_index) - 1) {
 }
 
 if (self.current_phrase.window_width != 0) {
-    var _new_xscale = self.current_phrase.window_width / sprite_get_width(self.sprite_index);
+    var _new_xscale = self.current_phrase.window_width 
+                        / sprite_get_width(self.sprite_index);
     self.image_xscale = _new_xscale;
+    self.x = self._origin_pos.x + 
+            floor((sprite_get_width(self.sprite_index) - self.sprite_width) / 2);
 } else {
     self.image_xscale = 1;
 }
@@ -30,5 +33,6 @@ if (self._to_set_with_delay) {
     if (self._set_timer * game_get_speed(gamespeed_fps) >= self.delay_after) {
         self._phrase_done = false;
         self._to_set_with_delay = false;
+        self._set_timer = 0;
     } 
 }

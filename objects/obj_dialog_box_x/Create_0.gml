@@ -9,6 +9,7 @@ _set_timer = 0;
 delay_after = 1.0;
 _to_set_with_delay = false; 
 _phrase_done = true;
+_origin_pos = new Pos(self.x, self.y);
 
 /// @param {Struct.DialoguePhrase} phrase новая фраза
 set_phrase = function(phrase){
@@ -26,13 +27,11 @@ set_phrase = function(phrase){
 set_phrase_with_delay = function(phrase){
     self._to_set_with_delay = true;
     self.set_phrase(phrase);
-
     self._phrase_done = true;
 }
 
 end_phrase = function() {
     self._phrase_done = true;
-    self._current_text_length = 0; 
 }
 
 end_with_delay = function() {
