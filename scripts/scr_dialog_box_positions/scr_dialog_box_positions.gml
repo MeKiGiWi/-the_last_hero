@@ -1,8 +1,8 @@
-function Pos() constructor {
+function Pos(_x=0, _y=0) constructor {
     /// @type {Real} 
-    x = 0;
+    x = _x;
     /// @type {Real} 
-    y = 0; 
+    y = _y; 
 }
 
 /// @param {Id.Instance.obj_dialog_wall} wall_instance текущая стенка  

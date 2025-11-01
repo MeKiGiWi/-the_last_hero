@@ -1,5 +1,5 @@
 /// 
-var _has_collision = collision_rectangle(
+var _inst_cur_yura_collision = collision_rectangle(
     self.x,
     self.y,
     self.x + self.sprite_width,
@@ -10,11 +10,16 @@ var _has_collision = collision_rectangle(
 )
 
 var _touched_by_yura;
-if (_has_collision) {
+if (_inst_cur_yura_collision) {
     _touched_by_yura = true;
 } else {
     _touched_by_yura = false;
 }
 
-var _start_button_pressed = keyboard_check_pressed(vk_enter);
+var _interaction_button_pressed = keyboard_check_pressed(vk_enter);
 
+if (!_dialog_started && _touched_by_yura && _interaction_button_pressed) {
+    self.start_dialog();
+} else if (_dialog_started) {
+    self.process_dialog(_interaction_button_pressed);    
+}
