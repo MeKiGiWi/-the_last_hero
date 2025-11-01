@@ -11,6 +11,7 @@ instance_init = function() {
     };
     dialog_name = "";
     disposable = true;
+    dynamic_names = ["yura"];
 }
 
 
@@ -22,6 +23,9 @@ start_dialog = function() {
     for (var i = 0; i < array_length(keys); i++) {
         var speaker_name = keys[i];
         var pos = variable_struct_get(speakers_positions, speaker_name);
+        if (array_contains(dynamic_names, speaker_name)) {
+            pos = get_dialogue_box_pos(self, speaker_name);
+        }
         var dialog_instance = instance_create_layer(
             pos.x,
             pos.y,
