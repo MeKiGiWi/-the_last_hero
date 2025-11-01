@@ -3,4 +3,4 @@ speakers_positions = {
 	"tachka" : new Pos(60, 160)
 };
 
-dialog_name = "Chapter1 Юра и тачка";
+dialog_name = "Chapter1 yura and car";

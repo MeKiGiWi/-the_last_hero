@@ -20,6 +20,6 @@ var _interaction_button_pressed = keyboard_check_pressed(vk_enter);
 
 if (!_dialog_started && _touched_by_yura && _interaction_button_pressed) {
     self.start_dialog();
-} else if (_dialog_started) {
-    self.process_dialog(_interaction_button_pressed);    
+} else if (_dialog_started && _interaction_button_pressed) {
+    self.process_next_phrase();    
 }

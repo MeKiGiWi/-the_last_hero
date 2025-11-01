@@ -10,8 +10,25 @@ if (self.current_phrase.window_width != 0) {
     self.image_xscale = 1;
 }
 
-if (_current_text_length < string_length(self.current_phrase.text)) {
-    _current_text_length += global.dialogue_typewriter_speed;
-} else {
-    _current_text_length = string_length(self.current_phrase.text);
+if (self._current_text_length < string_length(self.current_phrase.text) 
+    && !self._phrase_done) {
+
+    self._current_text_length += global.dialogue_typewriter_speed;
+} else if (self._current_text_length >= self._current_phrase_length 
+            && !self._phrase_done) {
+
+    self._end_timer += 1;
+    if (self._end_timer * game_get_speed(gamespeed_fps) >= self.delay_after) {
+        self.end_phrase();
+    } 
+}
+
+if (self._to_set_with_delay) {
+    self._set_timer += 1;
+
+    // запускаем диалог после паузы
+    if (self._set_timer * game_get_speed(gamespeed_fps) >= self.delay_after) {
+        self._phrase_done = false;
+        self._to_set_with_delay = false;
+    } 
 }

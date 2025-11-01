@@ -10,13 +10,24 @@ function init_dialogue_system() {
 
 
 /// @description Получить диалог по ID
-/// @param {String} _dialogue_id ID диалога
+/// @param {String} _dialogue_id ID диалога (название)
 /// @param {Struct} _dialogue_struct Распаршенный JSON диалога
-/// @return {Array<Struct.DialoguePhrase>}
-function get_dialogue_phrases_array(_dialogue_id, _dialogue_struct) {
+/// (созданный в dialog manager)
+/// @return {Array<Struct.DialoguePhrase>} Массив со структурами фразы
+function get_dialogue_phrase(_dialogue_id, _dialogue_struct) {
     if (variable_struct_exists(_dialogue_struct, _dialogue_id)) {
-        return struct_get(_dialogue_struct, _dialogue_id);
+        var _dialog_arr = variable_struct_get(_dialogue_struct, _dialogue_id);
+
+        /// @type {Array<Struct.DialoguePhrase>}
+        var _dialogue_struct_arr = [];
+        for (var i = 0; i < array_length(_dialog_arr); i++) {
+            _dialogue_struct_arr[i] = new DialoguePhrase(
+                _dialog_arr[i][0],
+                _dialog_arr[i][1],
+                _dialog_arr[i][2]
+                );
+        }
+        return _dialogue_struct_arr;
     }
-    show_debug_message("Error: Dialogue '" + _dialogue_id + "' not found!");
-    return [];
+    show_error("Error: Dialogue '" + _dialogue_id + "' not found!", true);
 }
