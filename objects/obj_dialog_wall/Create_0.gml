@@ -10,6 +10,7 @@ instance_init = function() {
             )
     };
     dialog_name = "";
+    disposable = true;
 }
 
 
@@ -29,11 +30,10 @@ start_dialog = function() {
             );
         variable_struct_set(dialog_box_instances, speaker_name, dialog_instance);
     }
-    _dialog_phrases = get_dialogue_phrase(
+    _dialog_phrases = get_dialogue_phrases(
         self.dialog_name,
         global.chapter_one_dialogs
         );
-    show_debug_message(_dialog_phrases[0]);
     self.process_first_phrase();
 }
 
@@ -50,6 +50,10 @@ process_first_phrase = function() {
 
 /// @description Заканчивает текущую фразу и переходит к следующей
 process_next_phrase = function() {
+    if (self._current_phrase == array_length(self._dialog_phrases) - 1) {
+        end_dialog();
+        return;
+    }
     var current_phrase_struct = self._dialog_phrases[self._current_phrase];
     var next_phrase_struct = self._dialog_phrases[++self._current_phrase];
 
@@ -71,6 +75,23 @@ process_next_phrase = function() {
     _current_dialog_box.end_with_delay();
     _next_dialog_box.set_phrase_with_delay(next_phrase_struct);    
 
+}
+
+end_dialog = function() {
+    var keys = variable_struct_get_names(speakers_positions);
+
+    for (var i = 0; i < array_length(keys); i++) {
+        instance_destroy(variable_struct_get(
+            self.dialog_box_instances,
+            keys[i]
+        ));
+    }
+    global.dialog = false;
+    if (self.disposable) {
+        instance_destroy();
+    }
+    self._dialog_started = false;
+    self._current_phrase = 0;
 }
 
 self.instance_init();

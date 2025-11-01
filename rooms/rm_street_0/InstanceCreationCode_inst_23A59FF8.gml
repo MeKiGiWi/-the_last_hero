@@ -4,3 +4,4 @@ speakers_positions = {
 };
 
 dialog_name = "Chapter1 yura and car";
+disposable = false;

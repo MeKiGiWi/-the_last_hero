@@ -14,7 +14,7 @@ function init_dialogue_system() {
 /// @param {Struct} _dialogue_struct Распаршенный JSON диалога
 /// (созданный в dialog manager)
 /// @return {Array<Struct.DialoguePhrase>} Массив со структурами фразы
-function get_dialogue_phrase(_dialogue_id, _dialogue_struct) {
+function get_dialogue_phrases(_dialogue_id, _dialogue_struct) {
     if (variable_struct_exists(_dialogue_struct, _dialogue_id)) {
         var _dialog_arr = variable_struct_get(_dialogue_struct, _dialogue_id);
 
